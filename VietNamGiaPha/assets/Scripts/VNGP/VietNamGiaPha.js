@@ -19,6 +19,7 @@
             }));
         },
         loadPage: function (dataItem) {
+            debugger
             $.extend(options.configs, {
                 totalPages: dataItem.totalPages,
             });

@@ -8,19 +8,22 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    public class RootPersonSearchAndGetTotalPagesRepository : Query
+    public class RootPersonTreeListRepository : Query
     {
+        public bool isFirstLoad { get; set; }
         public RootPersonSearch Item { get; set; }
         public List<dynamic> Execute()
         {
             using (var cmd = new Query())
             {
-                cmd.QueryString = @"vngp_RootPerson_RootPersonSearchAndGetTotalPages
-                                    @BranchId = @BranchId_, @txtSearch = @txtSearch_";
+                cmd.QueryString = @"vnsp_RootPerson_RootPersonTreeList    @pageSize = @pageSize_, 
+                                                                        @pageSkip = @pageSkip_,
+                                                                        @BranchId = @BranchId_";
                 cmd.Parameters = new
                 {
+                    pageSize_ = Item.pageSize,
+                    pageSkip_ = Item.pageSkip,
                     BranchId_ = Item.Id,
-                    txtSearch_ = Item.txtSearch,
                 };
                 return cmd.ExecuteQuery();
             }

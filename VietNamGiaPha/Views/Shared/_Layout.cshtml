@@ -458,15 +458,11 @@
         };
         string javascriptFileName = GetFileNameJavascript("/Views");
 
-        if (controller == null && action == null)
-        {
-            <h1>Empty</h1>
-        }
-        else
+        var absolutePath = HttpContext.Current.Server.MapPath(javascriptFileName);
+        if (File.Exists(absolutePath))
         {
             <script type="text/javascript" src="@javascriptFileName"></script>
         }
     }
-
 </body>
 </html>

@@ -1,4 +1,6 @@
-﻿using Repository;
+﻿using Business;
+using Domain;
+using Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,16 +10,14 @@ namespace Action
 {
     public class RootPersonListAction
     {
-        public int branchId { get; set; }
-        public int pageSize { get; set; }
-        public int pageSkip { get; set; }
+        public RootPersonSearch Item { get; set; }
+        public bool isFirstLoad { get; set; }
         public List<dynamic> Execute()
         {
-            using (var cmd = new RootPersonListRepository())
+            using (var cmd = new RootPersonSearchBusiness())
             {
-                cmd.branchId = branchId;
-                cmd.pageSize = pageSize;
-                cmd.pageSkip = pageSkip;
+                cmd.Item = Item;
+                cmd.isFirstLoad = isFirstLoad;
                 return cmd.Execute();
             }
         }

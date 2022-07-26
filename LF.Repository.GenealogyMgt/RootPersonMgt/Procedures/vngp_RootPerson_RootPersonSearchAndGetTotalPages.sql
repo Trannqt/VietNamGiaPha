@@ -1,8 +1,6 @@
-﻿CREATE PROC [dbo].[vnsp_RootPerson_RootPersonSearch]
+﻿CREATE PROC [dbo].[vngp_RootPerson_RootPersonSearchAndGetTotalPages]
 (
 	@BranchId INT,
-	@pageSize INT,
-	@pageSkip INT,
 	@txtSearch NVARCHAR(1000)
 )
 AS
@@ -289,13 +287,7 @@ BEGIN
                 Rs.Level DESC ,
                 Rs.FS DESC ,
                 Rs.SortOrder DESC
-	'
-	IF (@pageSize != -1 AND @pageSkip != -1) 
-	BEGIN
-        SET @query = @query + N'
-            OFFSET ' + CAST(@pageSkip AS VARCHAR(20)) + ' ROWS
-            FETCH NEXT ' + CAST(@pageSize AS VARCHAR(20)) + ' ROWS ONLY ';
-    END
+	';
 
 	EXECUTE sp_executesql @query, N'@BranchId INT', @BranchId = @BranchId
 	SELECT @query

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Business
 {
-    public class RootPersonSearchBusiness : Connection
+    public class RootPersonTreeListBusiness : Connection
     {
         public bool isFirstLoad { get; set; }
         public RootPersonSearch Item { get; set; }
@@ -17,7 +17,7 @@ namespace Business
         {
             if (isFirstLoad)
             {
-                using (var cmd = new RootPersonSearchAndGetTotalPagesRepository())
+                using (var cmd = new RootPersonTreeListAndGetTotalPagesRepository())
                 {
                     cmd.Item = this.Item;
                     return cmd.Execute();
@@ -25,7 +25,7 @@ namespace Business
             }
             else
             {
-                using (var cmd = new RootPersonSearchRepository())
+                using (var cmd = new RootPersonTreeListRepository())
                 {
                     cmd.Item = this.Item;
                     return cmd.Execute();

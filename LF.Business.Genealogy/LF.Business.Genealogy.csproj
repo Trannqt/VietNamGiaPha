@@ -46,6 +46,7 @@
     <Compile Include="RootBranch\RootBranchViewBusiness.cs" />
     <Compile Include="RootBranch\RootBranchViewProfileBusiness.cs" />
     <Compile Include="RootPerson\RootPersonSearchBusiness.cs" />
+    <Compile Include="RootPerson\RootPersonTreeListBusiness.cs" />
     <Compile Include="RootPerson\RootPersonTreeExecuteSearchBusiness.cs" />
     <Compile Include="RootPost\RootPostSearchBusiness.cs" />
   </ItemGroup>
