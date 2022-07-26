@@ -1,0 +1,129 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .advanced {
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 500
+    }
+
+    .btn-secondary,
+    .btn-secondary:focus,
+    .btn-secondary:active {
+        color: #fff;
+        background-color: #00838f !important;
+        border-color: #00838f !important;
+        box-shadow: none
+    }
+
+    .advanced {
+        color: #00838f !important
+    }
+
+    .form-control:focus {
+        box-shadow: none;
+        border: 1px solid #00838f
+    }
+
+    .select2-container .select2-selection--single {
+        height: 34px !important;
+    }
+
+    .select2-container--default .select2-selection--single {
+        border: 1px solid #ccc !important;
+        border-radius: 0px !important;
+    }
+</style>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+
+
+
+
+<section class="bg--f8 bor-none">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12" style="height:50px;">
+                <h1 class="title title-2 cl-gold title-bor">
+                    @*<span class="top-title">
+                        </span>*@
+                    <span class="title-heading">
+                        Danh Sách Tộc Họ
+                    </span>
+                    <span class="bot-title">
+                    </span>
+                </h1>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 30px;width: 90%;margin-left: 5%;margin-right: 5%;">
+            <div class="col-sm-4">
+                <div class="container-full">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div style="background: #101010 !important;">
+                                <div class="row g-3 mt-2">
+                                    <div class="col-md-3"> <input id="txtSearch" type="text" class="form-control" placeholder="Tộc họ..."> </div>
+                                    <div class="col-md-5" style="margin-top: 1px;border: 1px solid #726668;border-radius: 5px 5px;">
+                                        <select class="form-control province" style="width:100%" id="provinceID">
+                                            <option value=''>Quận Huyện</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input id="txtWard" type="text" class="form-control" placeholder="Nơi ở...">
+                                    </div>
+                                    <div class="col-md-1">
+                                        <div id="btnSearch" style="width: 100%;height: 100%;text-align: center;line-height: 2em;border: 1px solid #e0a800;background: #e0a800;border-radius: 3px 3px;cursor: pointer;">
+                                            <i class="fa fa-search" style="text-align: center;margin-right: 0px;"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <ul class="justify-content-center pagin" style="float:right;">
+                </ul>
+            </div>
+        </div>
+
+        <div class="row" id="Branch_listBranch" style="margin-top: 15px;">
+            <!--Loading Skeleton-->
+            <div class="card loading">
+                <div class="user-info">
+                    <div class="logo">
+                        <img src="https://picsum.photos/50/50" alt="logo">
+                    </div>
+                    <div class="name">HOLETEX</div>
+                </div>
+                <div class="content" style="height:350px">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit est
+                    explicabo delectus, optio neque amet nostrum odit dicta? In ipsa
+                    voluptate debitis voluptatem! Necessitatibus tempora excepturi error
+                    nisi accusantium eum?
+                </div>
+            </div>
+            <!--End Loading Skeleton-->
+        </div>
+        <div class="row" style="margin-bottom: 20px;width: 90%;margin-left: 5%;margin-right: 5%;">
+            <div class="col-sm-4">
+                <div class="container-full">
+                    <div class="row">
+                        <div class="col-md-12">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <ul class="justify-content-center pagin" style="float:right;">
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,5 @@
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\LF.Domain.Genealogy\bin\Debug\LF.Domain.Genealogy.dll
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\LF.Domain.Genealogy\bin\Debug\LF.Domain.Genealogy.pdb
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\LF.Domain.Genealogy\obj\Debug\LF.Domain.Genealogy.csproj.CoreCompileInputs.cache
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\LF.Domain.Genealogy\obj\Debug\LF.Domain.Genealogy.dll
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\LF.Domain.Genealogy\obj\Debug\LF.Domain.Genealogy.pdb

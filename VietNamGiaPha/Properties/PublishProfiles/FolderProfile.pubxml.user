@@ -1,0 +1,1305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\_publish-code\2022-06_quan-ly-gia-pha</_PublishTargetUrl>
+    <History>True|2022-07-24T16:42:28.7396634Z;True|2022-07-24T23:39:54.8275791+07:00;True|2022-07-24T23:34:00.2690993+07:00;True|2022-07-24T23:32:27.3911232+07:00;True|2022-07-24T23:30:45.7410633+07:00;True|2022-07-24T23:27:55.2622004+07:00;True|2022-07-24T23:12:22.6901248+07:00;True|2022-07-24T23:02:20.1914782+07:00;True|2022-07-24T22:55:12.6408670+07:00;True|2022-07-24T22:54:27.0424734+07:00;True|2022-07-24T22:53:44.6834970+07:00;True|2022-07-24T22:52:48.5471859+07:00;True|2022-07-24T22:51:29.6096967+07:00;True|2022-07-24T22:49:20.9339903+07:00;True|2022-07-24T22:42:10.9639355+07:00;True|2022-07-24T22:29:47.2704160+07:00;True|2022-07-24T22:28:15.8837769+07:00;True|2022-07-24T22:25:05.0136036+07:00;True|2022-07-24T22:24:05.4732703+07:00;True|2022-07-24T22:22:28.3408331+07:00;True|2022-07-08T23:34:02.8110877+07:00;True|2022-07-08T00:05:34.3353088+07:00;True|2022-07-07T23:58:10.4373805+07:00;True|2022-07-07T23:57:37.1112573+07:00;True|2022-07-07T23:55:59.8132176+07:00;True|2022-07-07T23:53:45.3861490+07:00;True|2022-07-07T23:52:35.9819859+07:00;True|2022-07-07T23:51:51.4139109+07:00;True|2022-07-07T23:48:08.5697265+07:00;True|2022-07-07T23:44:22.3555251+07:00;True|2022-07-07T23:41:24.3321678+07:00;True|2022-07-07T00:22:16.6046980+07:00;True|2022-07-07T00:20:38.9778250+07:00;True|2022-07-07T00:19:13.6682369+07:00;True|2022-07-07T00:13:23.0143933+07:00;True|2022-07-07T00:09:54.3507963+07:00;True|2022-07-07T00:07:15.0885837+07:00;True|2022-07-07T00:05:11.4311868+07:00;True|2022-07-07T00:02:02.0956364+07:00;True|2022-07-06T23:59:48.2049515+07:00;True|2022-07-06T23:57:04.5881667+07:00;True|2022-07-06T23:54:05.0656830+07:00;True|2022-07-06T23:53:12.7682035+07:00;True|2022-07-06T23:51:24.1434218+07:00;True|2022-07-06T23:40:08.7638687+07:00;True|2022-07-06T23:38:24.7354794+07:00;True|2022-07-06T23:31:33.4171431+07:00;True|2022-07-06T23:28:42.8701109+07:00;True|2022-07-06T23:27:06.9798396+07:00;True|2022-07-06T23:25:08.1728483+07:00;True|2022-07-06T23:22:40.0328274+07:00;True|2022-07-06T23:14:36.0579991+07:00;True|2022-07-06T23:13:05.5834247+07:00;True|2022-07-06T23:00:36.6947801+07:00;True|2022-06-25T22:24:17.9277050+07:00;True|2022-06-25T22:22:38.5758792+07:00;True|2022-06-25T22:02:46.8616449+07:00;True|2022-06-25T22:01:44.5494198+07:00;True|2022-06-25T21:30:12.8992761+07:00;True|2022-06-25T21:23:36.1047814+07:00;True|2022-06-25T18:49:20.7564634+07:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="assets/css/arrows.png">
+      <publishTime>12/26/2021 23:24:34</publishTime>
+    </File>
+    <File Include="assets/css/default.css">
+      <publishTime>12/26/2021 23:22:58</publishTime>
+    </File>
+    <File Include="assets/css/font.css">
+      <publishTime>12/26/2021 23:23:16</publishTime>
+    </File>
+    <File Include="assets/css/jquery.mhead.css">
+      <publishTime>12/26/2021 23:23:50</publishTime>
+    </File>
+    <File Include="assets/css/jquery.mmenu.all.css">
+      <publishTime>12/26/2021 23:24:00</publishTime>
+    </File>
+    <File Include="assets/css/loading.gif">
+      <publishTime>12/26/2021 23:24:46</publishTime>
+    </File>
+    <File Include="assets/css/nivo-slider.css">
+      <publishTime>12/26/2021 23:24:05</publishTime>
+    </File>
+    <File Include="assets/css/style.css">
+      <publishTime>06/04/2022 23:15:04</publishTime>
+    </File>
+    <File Include="assets/css/UTM-BEBAS.ttf">
+      <publishTime>12/31/2021 22:48:11</publishTime>
+    </File>
+    <File Include="assets/document/branch/branchDefault.json">
+      <publishTime>03/16/2022 22:03:11</publishTime>
+    </File>
+    <File Include="assets/document/location/location.json">
+      <publishTime>03/15/2022 22:59:37</publishTime>
+    </File>
+    <File Include="assets/document/location/LocationExecuteSearch.txt">
+      <publishTime>03/15/2022 21:52:09</publishTime>
+    </File>
+    <File Include="assets/document/ReasonExists/ReasonExists.json">
+      <publishTime>07/03/2022 16:01:51</publishTime>
+    </File>
+    <File Include="assets/document/RootBranch/branchDefault.json">
+      <publishTime>03/16/2022 22:03:11</publishTime>
+    </File>
+    <File Include="assets/document/RootBranch/RootBranchImage.json">
+      <publishTime>07/16/2022 18:24:05</publishTime>
+    </File>
+    <File Include="assets/font/font-awesome/css/font-awesome.min.css">
+      <publishTime>12/26/2021 23:26:18</publishTime>
+    </File>
+    <File Include="assets/font/font-awesome/fonts/fontawesome-webfont.woff2">
+      <publishTime>12/26/2021 23:26:48</publishTime>
+    </File>
+    <File Include="assets/font/mdi-font/material-design-iconic-font.min.css">
+      <publishTime>12/26/2021 23:27:13</publishTime>
+    </File>
+    <File Include="assets/js/FamilyTreeJS/familytree.js">
+      <publishTime>01/16/2022 21:17:22</publishTime>
+    </File>
+    <File Include="assets/js/jquery.min.js">
+      <publishTime>12/26/2021 23:27:41</publishTime>
+    </File>
+    <File Include="assets/js/jquery.mmenu.all.js">
+      <publishTime>12/26/2021 23:27:49</publishTime>
+    </File>
+    <File Include="assets/js/jquery.nivo.slider.js">
+      <publishTime>12/26/2021 23:27:53</publishTime>
+    </File>
+    <File Include="assets/js/jquery.twbsPagination.js">
+      <publishTime>03/21/2020 15:43:18</publishTime>
+    </File>
+    <File Include="assets/js/main.js">
+      <publishTime>12/26/2021 23:27:57</publishTime>
+    </File>
+    <File Include="assets/js/menu.js">
+      <publishTime>12/26/2021 23:28:01</publishTime>
+    </File>
+    <File Include="assets/js/OrgChartJS/orgchart.js">
+      <publishTime>07/19/2022 22:17:02</publishTime>
+    </File>
+    <File Include="assets/js/revo-custom.js">
+      <publishTime>12/26/2021 23:28:05</publishTime>
+    </File>
+    <File Include="assets/js/wow-custom.js">
+      <publishTime>12/26/2021 23:28:10</publishTime>
+    </File>
+    <File Include="assets/Scripts/VNGP/Branch/vngp_Branch_Detail.js">
+      <publishTime>07/17/2022 18:04:13</publishTime>
+    </File>
+    <File Include="assets/Scripts/VNGP/Branch/vngp_Branch_Index.js">
+      <publishTime>07/14/2022 22:58:21</publishTime>
+    </File>
+    <File Include="assets/Scripts/VNGP/Branch/vngp_Branch_PersonList.js">
+      <publishTime>06/18/2022 23:55:44</publishTime>
+    </File>
+    <File Include="assets/Scripts/VNGP/InformationBranch/vngp_InformationBranch_Informations.js">
+      <publishTime>05/03/2022 02:19:04</publishTime>
+    </File>
+    <File Include="assets/Scripts/VNGP/InformationBranch/vngp_InformationBranch_Root.js">
+      <publishTime>05/03/2022 02:17:32</publishTime>
+    </File>
+    <File Include="assets/Scripts/VNGP/InformationBranch/vngp_InformationBranch_Rules.js">
+      <publishTime>05/03/2022 02:18:19</publishTime>
+    </File>
+    <File Include="assets/Scripts/VNGP/Person/template.js">
+      <publishTime>02/19/2022 17:46:44</publishTime>
+    </File>
+    <File Include="assets/Scripts/VNGP/Person/vngp_Person_BranchSource.js">
+      <publishTime>05/25/2022 00:04:38</publishTime>
+    </File>
+    <File Include="assets/Scripts/VNGP/Person/vngp_Person_Index.js">
+      <publishTime>02/08/2022 22:11:55</publishTime>
+    </File>
+    <File Include="assets/Scripts/VNGP/Post/vngp_Post_Detail.js">
+      <publishTime>05/03/2022 02:20:18</publishTime>
+    </File>
+    <File Include="assets/Scripts/VNGP/Post/vngp_Post_Index.js">
+      <publishTime>06/07/2022 23:16:24</publishTime>
+    </File>
+    <File Include="assets/Scripts/VNGP/ReasonExists/vngp_ReasonExists_Index.js">
+      <publishTime>06/07/2022 22:25:49</publishTime>
+    </File>
+    <File Include="assets/Scripts/VNGP/VietNamGiaPha.js">
+      <publishTime>07/17/2022 16:11:16</publishTime>
+    </File>
+    <File Include="assets/Scripts/VNGP/VNGP.js">
+      <publishTime>07/07/2022 23:53:32</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/.DS_Store">
+      <publishTime>12/03/2019 14:26:07</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/css/.DS_Store">
+      <publishTime>12/04/2019 15:18:07</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/css/bootstrap.min.css">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/css/bootstrap/.DS_Store">
+      <publishTime>11/05/2019 13:58:06</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/css/bootstrap/mixins/.DS_Store">
+      <publishTime>11/05/2019 13:58:06</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/css/bootstrap/mixins/_border-radius.css">
+      <publishTime>11/26/2019 09:02:22</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/css/bootstrap/mixins/_list-group.css">
+      <publishTime>12/11/2019 07:49:32</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/css/bootstrap/mixins/_screen-reader.css">
+      <publishTime>11/27/2019 08:28:43</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/css/bootstrap/mixins/_visibility.css">
+      <publishTime>12/10/2019 16:19:46</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/css/bootstrap/utilities/_stretched-link.css">
+      <publishTime>12/11/2019 07:49:32</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/css/bootstrap/_media.css">
+      <publishTime>11/26/2019 09:02:22</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/css/style.css">
+      <publishTime>05/13/2022 00:00:24</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/fonts/.DS_Store">
+      <publishTime>12/03/2019 14:26:02</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/images/.DS_Store">
+      <publishTime>11/27/2019 17:37:59</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/index.html">
+      <publishTime>12/11/2019 08:27:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/js/.DS_Store">
+      <publishTime>11/27/2019 17:37:59</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/js/bootstrap.min.js">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/js/jquery.min.js">
+      <publishTime>11/05/2019 13:45:00</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/js/main.js">
+      <publishTime>12/10/2019 19:06:08</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/js/popper.js">
+      <publishTime>11/05/2019 13:46:24</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/.DS_Store">
+      <publishTime>11/05/2019 14:01:51</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/.DS_Store">
+      <publishTime>11/05/2019 13:51:32</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/bootstrap-grid.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/bootstrap-reboot.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/bootstrap.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/mixins/_alert.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/mixins/_background-variant.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/mixins/_badge.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/mixins/_border-radius.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/mixins/_box-shadow.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/mixins/_breakpoints.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/mixins/_buttons.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/mixins/_caret.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/mixins/_clearfix.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/mixins/_deprecate.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/mixins/_float.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/mixins/_forms.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/mixins/_gradients.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/mixins/_grid-framework.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/mixins/_grid.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/mixins/_hover.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/mixins/_image.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/mixins/_list-group.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/mixins/_lists.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/mixins/_nav-divider.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/mixins/_pagination.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/mixins/_reset-text.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/mixins/_resize.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/mixins/_screen-reader.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/mixins/_size.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/mixins/_table-row.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/mixins/_text-emphasis.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/mixins/_text-hide.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/mixins/_text-truncate.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/mixins/_transition.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/mixins/_visibility.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/utilities/_align.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/utilities/_background.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/utilities/_borders.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/utilities/_clearfix.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/utilities/_display.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/utilities/_embed.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/utilities/_flex.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/utilities/_float.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/utilities/_overflow.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/utilities/_position.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/utilities/_screenreaders.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/utilities/_shadows.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/utilities/_sizing.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/utilities/_spacing.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/utilities/_stretched-link.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/utilities/_text.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/utilities/_visibility.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/vendor/_rfs.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_alert.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_badge.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_breadcrumb.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_button-group.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_buttons.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_card.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_carousel.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_close.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_code.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_custom-forms.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_dropdown.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_forms.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_functions.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_grid.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_images.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_input-group.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_jumbotron.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_list-group.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_media.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_mixins.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_modal.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_nav.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_navbar.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_pagination.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_popover.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_print.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_progress.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_reboot.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_root.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_spinners.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_tables.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_toasts.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_tooltip.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_transitions.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_type.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_utilities.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/bootstrap/_variables.scss">
+      <publishTime>02/13/2019 07:01:40</publishTime>
+    </File>
+    <File Include="assets/sidebar-08/scss/style.scss">
+      <publishTime>12/11/2019 10:26:01</publishTime>
+    </File>
+    <File Include="assets/upload/banner/biet-thu-co-dien-65.jpg">
+      <publishTime>12/26/2021 23:30:56</publishTime>
+    </File>
+    <File Include="assets/upload/banner/biet-thu-hien-dai-69.jpg">
+      <publishTime>12/26/2021 23:31:05</publishTime>
+    </File>
+    <File Include="assets/upload/banner/dinh-thu-lau-dai-16.jpg">
+      <publishTime>12/26/2021 23:31:14</publishTime>
+    </File>
+    <File Include="assets/upload/banner/san-pha-noi-that-52.jpg">
+      <publishTime>12/26/2021 23:31:21</publishTime>
+    </File>
+    <File Include="assets/upload/banner/thiet-ke-khach-san-55.jpg">
+      <publishTime>12/26/2021 23:31:27</publishTime>
+    </File>
+    <File Include="assets/upload/banner/thiet-ke-kien-truc-11.jpg">
+      <publishTime>12/26/2021 23:31:33</publishTime>
+    </File>
+    <File Include="assets/upload/banner/thiet-ke-noi-that-78.jpg">
+      <publishTime>12/26/2021 23:31:38</publishTime>
+    </File>
+    <File Include="assets/upload/banner/thiet-ke-san-vuon-44.jpg">
+      <publishTime>12/26/2021 23:31:44</publishTime>
+    </File>
+    <File Include="assets/upload/banner/xay-nha-tron-goi-27.jpg">
+      <publishTime>12/26/2021 23:31:50</publishTime>
+    </File>
+    <File Include="assets/upload/branch/noimg.jpg">
+      <publishTime>03/16/2022 22:52:46</publishTime>
+    </File>
+    <File Include="assets/upload/branch/noimg.png">
+      <publishTime>02/23/2022 21:34:51</publishTime>
+    </File>
+    <File Include="assets/upload/branch/right-arrow.png">
+      <publishTime>07/24/2022 23:06:09</publishTime>
+    </File>
+    <File Include="assets/upload/branch/tocbui.jpg">
+      <publishTime>03/15/2022 18:27:27</publishTime>
+    </File>
+    <File Include="assets/upload/branch/tocdang.jpg">
+      <publishTime>03/15/2022 18:27:20</publishTime>
+    </File>
+    <File Include="assets/upload/branch/tocdo.jpg">
+      <publishTime>03/15/2022 18:28:00</publishTime>
+    </File>
+    <File Include="assets/upload/branch/tocduong.jpg">
+      <publishTime>03/15/2022 18:28:48</publishTime>
+    </File>
+    <File Include="assets/upload/branch/tocho.jpg">
+      <publishTime>03/15/2022 18:28:04</publishTime>
+    </File>
+    <File Include="assets/upload/branch/tochoang.jpg">
+      <publishTime>03/15/2022 18:25:58</publishTime>
+    </File>
+    <File Include="assets/upload/branch/tochohuynh_thumbnail_20221202.jpg">
+      <publishTime>02/12/2022 14:59:10</publishTime>
+    </File>
+    <File Include="assets/upload/branch/tochole_thumbnail_20221202.jpg">
+      <publishTime>02/12/2022 14:58:48</publishTime>
+    </File>
+    <File Include="assets/upload/branch/tochonguyen_thumbnail_20221202.jpg">
+      <publishTime>02/12/2022 14:56:06</publishTime>
+    </File>
+    <File Include="assets/upload/branch/tochotran_thumbnail_20221202.jpg">
+      <publishTime>02/12/2022 14:58:04</publishTime>
+    </File>
+    <File Include="assets/upload/branch/tochuynh.jpg">
+      <publishTime>03/15/2022 18:26:12</publishTime>
+    </File>
+    <File Include="assets/upload/branch/tocle.jpg">
+      <publishTime>03/15/2022 18:24:38</publishTime>
+    </File>
+    <File Include="assets/upload/branch/tocly.jpg">
+      <publishTime>03/15/2022 18:29:05</publishTime>
+    </File>
+    <File Include="assets/upload/branch/tocngo.jpg">
+      <publishTime>03/15/2022 18:28:38</publishTime>
+    </File>
+    <File Include="assets/upload/branch/tocnguyen.jpg">
+      <publishTime>03/15/2022 18:23:28</publishTime>
+    </File>
+    <File Include="assets/upload/branch/tocpham.jpg">
+      <publishTime>03/15/2022 18:24:56</publishTime>
+    </File>
+    <File Include="assets/upload/branch/tocphan.jpg">
+      <publishTime>03/15/2022 18:25:11</publishTime>
+    </File>
+    <File Include="assets/upload/branch/toctran.jpg">
+      <publishTime>03/15/2022 18:24:09</publishTime>
+    </File>
+    <File Include="assets/upload/branch/tocvo.jpg">
+      <publishTime>03/15/2022 18:25:42</publishTime>
+    </File>
+    <File Include="assets/upload/branch/tocvu.jpg">
+      <publishTime>03/15/2022 18:25:25</publishTime>
+    </File>
+    <File Include="assets/upload/branchsource/img1.jpg">
+      <publishTime>06/07/2022 23:24:37</publishTime>
+    </File>
+    <File Include="assets/upload/branchsource/img2.jpg">
+      <publishTime>06/07/2022 23:24:28</publishTime>
+    </File>
+    <File Include="assets/upload/branchsource/img3.jpg">
+      <publishTime>06/07/2022 23:24:37</publishTime>
+    </File>
+    <File Include="assets/upload/branchsource/img4.jpg">
+      <publishTime>06/07/2022 23:24:28</publishTime>
+    </File>
+    <File Include="assets/upload/branchsource/man.png">
+      <publishTime>06/07/2022 23:24:37</publishTime>
+    </File>
+    <File Include="assets/upload/branchsource/woamn.png">
+      <publishTime>06/07/2022 23:24:28</publishTime>
+    </File>
+    <File Include="assets/upload/branchsource/woman.png">
+      <publishTime>06/07/2022 23:24:28</publishTime>
+    </File>
+    <File Include="assets/upload/data/images/GIOI-THIEU/23-1-8.jpg">
+      <publishTime>12/27/2021 00:22:28</publishTime>
+    </File>
+    <File Include="assets/upload/data/images/GIOI-THIEU/biet-thu-tan-co-dien-300m2-1-16.jpg">
+      <publishTime>12/27/2021 00:14:02</publishTime>
+    </File>
+    <File Include="assets/upload/giapha/lydotontai-background.jpg">
+      <publishTime>12/31/2021 02:25:39</publishTime>
+    </File>
+    <File Include="assets/upload/giapha/nonimagedefault.jpg">
+      <publishTime>01/16/2022 17:12:50</publishTime>
+    </File>
+    <File Include="assets/upload/home/family.png">
+      <publishTime>05/16/2022 22:41:10</publishTime>
+    </File>
+    <File Include="assets/upload/home/logo-mini.png">
+      <publishTime>05/12/2022 23:22:47</publishTime>
+    </File>
+    <File Include="assets/upload/home/logo.png">
+      <publishTime>05/12/2022 23:19:54</publishTime>
+    </File>
+    <File Include="assets/upload/icon/20-5-2019/biet-thu-phap-59.png">
+      <publishTime>12/26/2021 23:32:48</publishTime>
+    </File>
+    <File Include="assets/upload/icon/bg-hv1.png">
+      <publishTime>12/26/2021 23:33:02</publishTime>
+    </File>
+    <File Include="assets/upload/icon/bg-hv2.png">
+      <publishTime>12/26/2021 23:33:10</publishTime>
+    </File>
+    <File Include="assets/upload/icon/bg-recent-project.jpg">
+      <publishTime>12/26/2021 23:33:16</publishTime>
+    </File>
+    <File Include="assets/upload/icon/bor-bleft.png">
+      <publishTime>12/26/2021 23:33:20</publishTime>
+    </File>
+    <File Include="assets/upload/icon/bor-bright.png">
+      <publishTime>12/26/2021 23:33:25</publishTime>
+    </File>
+    <File Include="assets/upload/icon/bor-left.png">
+      <publishTime>12/26/2021 23:33:30</publishTime>
+    </File>
+    <File Include="assets/upload/icon/bor-tleft.png">
+      <publishTime>12/26/2021 23:33:34</publishTime>
+    </File>
+    <File Include="assets/upload/icon/bor-top.png">
+      <publishTime>12/26/2021 23:33:39</publishTime>
+    </File>
+    <File Include="assets/upload/icon/bor-tright.png">
+      <publishTime>12/26/2021 23:33:43</publishTime>
+    </File>
+    <File Include="assets/upload/icon/bottom.png">
+      <publishTime>12/26/2021 23:33:47</publishTime>
+    </File>
+    <File Include="assets/upload/icon/break.png">
+      <publishTime>12/31/2021 22:43:26</publishTime>
+    </File>
+    <File Include="assets/upload/icon/phone.png">
+      <publishTime>12/26/2021 23:33:52</publishTime>
+    </File>
+    <File Include="assets/upload/icon/top.png">
+      <publishTime>12/26/2021 23:34:02</publishTime>
+    </File>
+    <File Include="assets/upload/icon/zalo.png">
+      <publishTime>12/26/2021 23:34:07</publishTime>
+    </File>
+    <File Include="assets/upload/news/18-9-2019/thi-cong-tron-goi-biet-thu-1-98.jpg">
+      <publishTime>12/26/2021 23:35:57</publishTime>
+    </File>
+    <File Include="assets/upload/news/21-5-2019/thi-cong-thuc-te-biet-thu-63.jpg">
+      <publishTime>12/26/2021 23:36:15</publishTime>
+    </File>
+    <File Include="assets/upload/news/21-5-2019/thiet-ke-biet-thu-co-dien-tai-phan-thiet-6-2-15.jpg">
+      <publishTime>12/26/2021 23:36:20</publishTime>
+    </File>
+    <File Include="assets/upload/news/25-12-2019/thi-cong-tron-goi-biet-thu-2-51.jpg">
+      <publishTime>12/26/2021 23:36:36</publishTime>
+    </File>
+    <File Include="assets/upload/news/27-12-2019/biet-thu-hien-dai-3-tang-85.jpg">
+      <publishTime>12/26/2021 23:36:55</publishTime>
+    </File>
+    <File Include="assets/upload/news/6-11-2019/thi-cong-tron-goi-biet-thu-tan-co-dien-5-98.jpg">
+      <publishTime>12/26/2021 23:35:09</publishTime>
+    </File>
+    <File Include="assets/upload/news/8-4-2019/kts-nguyen-quyet-chien-youtube-345x220-92.png">
+      <publishTime>12/26/2021 23:35:30</publishTime>
+    </File>
+    <File Include="assets/upload/news/8-4-2019/phong-su-khong-gian-xanh-vtv3-to-am-thien-nhien-95.jpg">
+      <publishTime>12/26/2021 23:35:34</publishTime>
+    </File>
+    <File Include="assets/upload/news/8-4-2019/phong-su-nhung-ngoi-nha-dep-bac-giang-green-house-61.jpg">
+      <publishTime>12/26/2021 23:35:38</publishTime>
+    </File>
+    <File Include="assets/upload/news/8-4-2019/thiet-ke-biet-thu-tan-co-dien-tai-bac-giang-6-3.jpg">
+      <publishTime>12/26/2021 23:35:42</publishTime>
+    </File>
+    <File Include="assets/upload/partner/dong-duong-2.png">
+      <publishTime>12/26/2021 23:37:10</publishTime>
+    </File>
+    <File Include="assets/upload/partner/dulux-65.png">
+      <publishTime>12/26/2021 23:37:16</publishTime>
+    </File>
+    <File Include="assets/upload/partner/inax-27.png">
+      <publishTime>12/26/2021 23:37:21</publishTime>
+    </File>
+    <File Include="assets/upload/partner/jotun-74.png">
+      <publishTime>12/26/2021 23:37:24</publishTime>
+    </File>
+    <File Include="assets/upload/partner/logo-euro-62.png">
+      <publishTime>12/26/2021 23:37:28</publishTime>
+    </File>
+    <File Include="assets/upload/posts/conenkhentrethongminh.png">
+      <publishTime>04/16/2022 17:55:49</publishTime>
+    </File>
+    <File Include="assets/upload/posts/contrainuoi.jpg">
+      <publishTime>04/16/2022 18:12:41</publishTime>
+    </File>
+    <File Include="assets/upload/posts/couples-banking-together.jpg">
+      <publishTime>04/16/2022 18:24:29</publishTime>
+    </File>
+    <File Include="assets/upload/posts/maugiao.jpg">
+      <publishTime>04/16/2022 18:03:44</publishTime>
+    </File>
+    <File Include="assets/upload/posts/nhanduyen_20220213.jpg">
+      <publishTime>02/13/2022 13:49:21</publishTime>
+    </File>
+    <File Include="assets/upload/posts/noimg.jpg">
+      <publishTime>03/16/2022 22:52:46</publishTime>
+    </File>
+    <File Include="assets/upload/posts/noimg.png">
+      <publishTime>02/23/2022 21:34:51</publishTime>
+    </File>
+    <File Include="assets/upload/posts/phucduc_20220213.jpg">
+      <publishTime>02/13/2022 14:49:17</publishTime>
+    </File>
+    <File Include="assets/upload/posts/thucphamnguoinhat.jpg">
+      <publishTime>04/16/2022 18:07:36</publishTime>
+    </File>
+    <File Include="assets/upload/posts/tocbui.jpg">
+      <publishTime>03/15/2022 18:27:27</publishTime>
+    </File>
+    <File Include="assets/upload/posts/tocdang.jpg">
+      <publishTime>03/15/2022 18:27:20</publishTime>
+    </File>
+    <File Include="assets/upload/posts/tocdo.jpg">
+      <publishTime>03/15/2022 18:28:00</publishTime>
+    </File>
+    <File Include="assets/upload/posts/tocduong.jpg">
+      <publishTime>03/15/2022 18:28:48</publishTime>
+    </File>
+    <File Include="assets/upload/posts/tocho.jpg">
+      <publishTime>03/15/2022 18:28:04</publishTime>
+    </File>
+    <File Include="assets/upload/posts/tochoang.jpg">
+      <publishTime>03/15/2022 18:25:58</publishTime>
+    </File>
+    <File Include="assets/upload/posts/tochohuynh_thumbnail_20221202.jpg">
+      <publishTime>02/12/2022 14:59:10</publishTime>
+    </File>
+    <File Include="assets/upload/posts/tochole_thumbnail_20221202.jpg">
+      <publishTime>02/12/2022 14:58:48</publishTime>
+    </File>
+    <File Include="assets/upload/posts/tochonguyen_thumbnail_20221202.jpg">
+      <publishTime>02/12/2022 14:56:06</publishTime>
+    </File>
+    <File Include="assets/upload/posts/tochotran_thumbnail_20221202.jpg">
+      <publishTime>02/12/2022 14:58:04</publishTime>
+    </File>
+    <File Include="assets/upload/posts/tochuynh.jpg">
+      <publishTime>03/15/2022 18:26:12</publishTime>
+    </File>
+    <File Include="assets/upload/posts/tocle.jpg">
+      <publishTime>03/15/2022 18:24:38</publishTime>
+    </File>
+    <File Include="assets/upload/posts/tocly.jpg">
+      <publishTime>03/15/2022 18:29:05</publishTime>
+    </File>
+    <File Include="assets/upload/posts/tocngo.jpg">
+      <publishTime>03/15/2022 18:28:38</publishTime>
+    </File>
+    <File Include="assets/upload/posts/tocnguyen.jpg">
+      <publishTime>03/15/2022 18:23:28</publishTime>
+    </File>
+    <File Include="assets/upload/posts/tocpham.jpg">
+      <publishTime>03/15/2022 18:24:56</publishTime>
+    </File>
+    <File Include="assets/upload/posts/tocphan.jpg">
+      <publishTime>03/15/2022 18:25:11</publishTime>
+    </File>
+    <File Include="assets/upload/posts/toctran.jpg">
+      <publishTime>03/15/2022 18:24:09</publishTime>
+    </File>
+    <File Include="assets/upload/posts/tocvo.jpg">
+      <publishTime>03/15/2022 18:25:42</publishTime>
+    </File>
+    <File Include="assets/upload/posts/tocvu.jpg">
+      <publishTime>03/15/2022 18:25:25</publishTime>
+    </File>
+    <File Include="assets/upload/product/thumb/1-10-2021/mau-thiet-ke-nha-hang-phong-cach-indochine-tai-bac-giang-cdt-anh-tung-1-28.jpg">
+      <publishTime>01/01/2022 12:51:30</publishTime>
+    </File>
+    <File Include="assets/upload/product/thumb/1-10-2021/thiet-ke-nha-pho-hien-dai-dep-moi-la-tai-quang-ninh-cdt-anh-hai-8.jpg">
+      <publishTime>01/01/2022 13:58:36</publishTime>
+    </File>
+    <File Include="assets/upload/product/thumb/8-5-2019/23-1-8.jpg">
+      <publishTime>12/27/2021 00:23:14</publishTime>
+    </File>
+    <File Include="assets/upload/product/thumb/8-5-2019/biet-thu-co-dien-tai-bac-lieu-80.jpg">
+      <publishTime>12/27/2021 00:22:56</publishTime>
+    </File>
+    <File Include="assets/upload/product/thumb/8-5-2019/thiet-ke-dinh-thu-co-dien-tai-bac-ninh-32-79.jpg">
+      <publishTime>12/27/2021 00:23:01</publishTime>
+    </File>
+    <File Include="assets/upload/product/thumb/8-5-2019/thiet-ke-dinh-thu-tan-co-dien-ha-noi-16-61.jpg">
+      <publishTime>12/27/2021 00:23:05</publishTime>
+    </File>
+    <File Include="assets/upload/product/thumb/8-6-2021/thiet-ke-dinh-thu-tan-co-dien-3-mat-tien-dep-dang-cap-tai-ho-chi-minh-53.jpg">
+      <publishTime>12/27/2021 00:23:44</publishTime>
+    </File>
+    <File Include="assets/upload/reasonExists/lydotontai-background.jpg">
+      <publishTime>12/31/2021 02:25:39</publishTime>
+    </File>
+    <File Include="assets/upload/reasonExists/nonimagedefault.jpg">
+      <publishTime>01/16/2022 17:12:50</publishTime>
+    </File>
+    <File Include="assets/upload/rootbranchtree/img1.jpg">
+      <publishTime>06/07/2022 23:24:37</publishTime>
+    </File>
+    <File Include="assets/upload/rootbranchtree/img2.jpg">
+      <publishTime>06/07/2022 23:24:28</publishTime>
+    </File>
+    <File Include="assets/upload/rootbranchtree/img3.jpg">
+      <publishTime>06/07/2022 23:24:37</publishTime>
+    </File>
+    <File Include="assets/upload/rootbranchtree/img4.jpg">
+      <publishTime>06/07/2022 23:24:28</publishTime>
+    </File>
+    <File Include="assets/upload/rootbranchtree/man.png">
+      <publishTime>06/07/2022 23:24:37</publishTime>
+    </File>
+    <File Include="assets/upload/rootbranchtree/woman.png">
+      <publishTime>06/07/2022 23:24:28</publishTime>
+    </File>
+    <File Include="assets/upload/slide/dinh-thu-rang-dong-88.jpg">
+      <publishTime>12/26/2021 23:38:11</publishTime>
+    </File>
+    <File Include="assets/upload/slide/noi-that-35.jpg">
+      <publishTime>12/26/2021 23:38:16</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap4/bootstrap.min.css">
+      <publishTime>05/13/2022 23:51:12</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap4/bootstrap.min.js">
+      <publishTime>12/26/2021 23:38:51</publishTime>
+    </File>
+    <File Include="assets/vendor/bootstrap4/popper.min.js">
+      <publishTime>12/26/2021 23:38:56</publishTime>
+    </File>
+    <File Include="assets/vendor/jquery-3.2.1.min.js">
+      <publishTime>12/26/2021 23:44:20</publishTime>
+    </File>
+    <File Include="assets/vendor/lightbox2/css/lightbox.css">
+      <publishTime>12/26/2021 23:40:11</publishTime>
+    </File>
+    <File Include="assets/vendor/lightbox2/images/close.png">
+      <publishTime>12/26/2021 23:40:34</publishTime>
+    </File>
+    <File Include="assets/vendor/lightbox2/images/loading.gif">
+      <publishTime>12/26/2021 23:40:42</publishTime>
+    </File>
+    <File Include="assets/vendor/lightbox2/images/next.png">
+      <publishTime>12/26/2021 23:40:59</publishTime>
+    </File>
+    <File Include="assets/vendor/lightbox2/images/prev.png">
+      <publishTime>12/26/2021 23:41:06</publishTime>
+    </File>
+    <File Include="assets/vendor/lightbox2/js/lightbox.js">
+      <publishTime>12/26/2021 23:41:13</publishTime>
+    </File>
+    <File Include="assets/vendor/owl-carousel/animate.css">
+      <publishTime>12/26/2021 23:41:51</publishTime>
+    </File>
+    <File Include="assets/vendor/owl-carousel/owl.carousel.min.css">
+      <publishTime>12/26/2021 23:41:55</publishTime>
+    </File>
+    <File Include="assets/vendor/owl-carousel/owl.carousel.min.js">
+      <publishTime>12/26/2021 23:41:47</publishTime>
+    </File>
+    <File Include="assets/vendor/owl-carousel/owl.theme.default.min.css">
+      <publishTime>12/26/2021 23:41:58</publishTime>
+    </File>
+    <File Include="assets/vendor/revolution/jquery.themepunch.revolution.min.js">
+      <publishTime>12/26/2021 23:43:19</publishTime>
+    </File>
+    <File Include="assets/vendor/revolution/jquery.themepunch.tools.min.js">
+      <publishTime>12/26/2021 23:43:23</publishTime>
+    </File>
+    <File Include="assets/vendor/revolution/layers.css">
+      <publishTime>12/26/2021 23:43:27</publishTime>
+    </File>
+    <File Include="assets/vendor/revolution/local/revolution.extension.actions.min.js">
+      <publishTime>12/26/2021 23:42:39</publishTime>
+    </File>
+    <File Include="assets/vendor/revolution/local/revolution.extension.carousel.min.js">
+      <publishTime>12/26/2021 23:42:44</publishTime>
+    </File>
+    <File Include="assets/vendor/revolution/local/revolution.extension.kenburn.min.js">
+      <publishTime>12/26/2021 23:42:47</publishTime>
+    </File>
+    <File Include="assets/vendor/revolution/local/revolution.extension.layeranimation.min.js">
+      <publishTime>12/26/2021 23:42:51</publishTime>
+    </File>
+    <File Include="assets/vendor/revolution/local/revolution.extension.migration.min.js">
+      <publishTime>12/26/2021 23:42:55</publishTime>
+    </File>
+    <File Include="assets/vendor/revolution/local/revolution.extension.navigation.min.js">
+      <publishTime>12/26/2021 23:42:59</publishTime>
+    </File>
+    <File Include="assets/vendor/revolution/local/revolution.extension.parallax.min.js">
+      <publishTime>12/26/2021 23:43:02</publishTime>
+    </File>
+    <File Include="assets/vendor/revolution/local/revolution.extension.slideanims.min.js">
+      <publishTime>12/26/2021 23:43:09</publishTime>
+    </File>
+    <File Include="assets/vendor/revolution/local/revolution.extension.video.min.js">
+      <publishTime>12/26/2021 23:43:14</publishTime>
+    </File>
+    <File Include="assets/vendor/revolution/navigation.css">
+      <publishTime>12/26/2021 23:43:31</publishTime>
+    </File>
+    <File Include="assets/vendor/revolution/settings.css">
+      <publishTime>12/26/2021 23:43:35</publishTime>
+    </File>
+    <File Include="assets/vendor/wow/wow.min.js">
+      <publishTime>12/26/2021 23:44:12</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/ClassLibrary1.dll">
+      <publishTime>07/08/2022 23:33:38</publishTime>
+    </File>
+    <File Include="bin/ClassLibrary1.pdb">
+      <publishTime>07/08/2022 23:33:38</publishTime>
+    </File>
+    <File Include="bin/ClassLibrary2.dll">
+      <publishTime>07/08/2022 23:33:40</publishTime>
+    </File>
+    <File Include="bin/ClassLibrary2.pdb">
+      <publishTime>07/08/2022 23:33:40</publishTime>
+    </File>
+    <File Include="bin/ConnectDatabase.dll">
+      <publishTime>07/24/2022 22:14:25</publishTime>
+    </File>
+    <File Include="bin/ConnectDatabase.pdb">
+      <publishTime>07/24/2022 22:14:25</publishTime>
+    </File>
+    <File Include="bin/Dapper.dll">
+      <publishTime>07/01/2016 18:38:16</publishTime>
+    </File>
+    <File Include="bin/LF.Business.Genealogy.dll">
+      <publishTime>07/24/2022 22:14:27</publishTime>
+    </File>
+    <File Include="bin/LF.Business.Genealogy.pdb">
+      <publishTime>07/24/2022 22:14:27</publishTime>
+    </File>
+    <File Include="bin/LF.Domain.Genealogy.dll">
+      <publishTime>07/24/2022 22:14:25</publishTime>
+    </File>
+    <File Include="bin/LF.Domain.Genealogy.pdb">
+      <publishTime>07/24/2022 22:14:25</publishTime>
+    </File>
+    <File Include="bin/LF.Repository.GenealogyMgt.dll">
+      <publishTime>07/24/2022 22:14:27</publishTime>
+    </File>
+    <File Include="bin/LF.Repository.GenealogyMgt.pdb">
+      <publishTime>07/24/2022 22:14:27</publishTime>
+    </File>
+    <File Include="bin/LF.Repository.RootLocationMgt.dll">
+      <publishTime>07/08/2022 23:33:39</publishTime>
+    </File>
+    <File Include="bin/LF.Repository.RootLocationMgt.pdb">
+      <publishTime>07/08/2022 23:33:39</publishTime>
+    </File>
+    <File Include="bin/LF.Repository.RootPersonMgt.dll">
+      <publishTime>07/08/2022 23:33:40</publishTime>
+    </File>
+    <File Include="bin/LF.Repository.RootPersonMgt.pdb">
+      <publishTime>07/08/2022 23:33:40</publishTime>
+    </File>
+    <File Include="bin/LF.Repository.RootPostMgt.dll">
+      <publishTime>07/08/2022 23:33:38</publishTime>
+    </File>
+    <File Include="bin/LF.Repository.RootPostMgt.pdb">
+      <publishTime>07/08/2022 23:33:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 16:10:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/21/2017 03:03:18</publishTime>
+    </File>
+    <File Include="bin/ReasonExists.dll">
+      <publishTime>07/08/2022 23:33:37</publishTime>
+    </File>
+    <File Include="bin/ReasonExists.pdb">
+      <publishTime>07/08/2022 23:33:37</publishTime>
+    </File>
+    <File Include="bin/RootBranch.dll">
+      <publishTime>07/08/2022 23:33:38</publishTime>
+    </File>
+    <File Include="bin/RootBranch.pdb">
+      <publishTime>07/08/2022 23:33:38</publishTime>
+    </File>
+    <File Include="bin/RootBranchRespository.dll">
+      <publishTime>07/08/2022 23:33:39</publishTime>
+    </File>
+    <File Include="bin/RootBranchRespository.pdb">
+      <publishTime>07/08/2022 23:33:39</publishTime>
+    </File>
+    <File Include="bin/RootBranchSearchBusiness.dll">
+      <publishTime>07/08/2022 23:33:39</publishTime>
+    </File>
+    <File Include="bin/RootBranchSearchBusiness.pdb">
+      <publishTime>07/08/2022 23:33:39</publishTime>
+    </File>
+    <File Include="bin/RootLocation.dll">
+      <publishTime>07/08/2022 23:33:39</publishTime>
+    </File>
+    <File Include="bin/RootLocation.pdb">
+      <publishTime>07/08/2022 23:33:39</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>11/28/2018 12:59:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>11/28/2018 13:00:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/VietNamGiaPha.dll">
+      <publishTime>07/24/2022 23:12:21</publishTime>
+    </File>
+    <File Include="bin/VietNamGiaPha.pdb">
+      <publishTime>07/24/2022 23:12:21</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/23/2014 13:57:34</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>06/25/2022 18:19:08</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>06/25/2022 18:19:08</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>06/25/2022 18:19:08</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>06/25/2022 18:19:08</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>06/25/2022 18:19:08</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>06/25/2022 18:19:08</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>06/25/2022 18:19:08</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>06/25/2022 18:19:08</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>06/25/2022 18:19:02</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>06/25/2022 18:19:02</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>06/25/2022 18:19:08</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>06/25/2022 18:19:08</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>06/25/2022 18:19:07</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>06/25/2022 18:19:07</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>06/25/2022 18:19:07</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>06/25/2022 18:19:02</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>06/25/2022 18:19:07</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>06/25/2022 18:19:07</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.js">
+      <publishTime>06/25/2022 18:19:08</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.min.js">
+      <publishTime>06/25/2022 18:19:08</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.min.map">
+      <publishTime>06/25/2022 18:19:08</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.js">
+      <publishTime>06/25/2022 18:19:08</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.min.js">
+      <publishTime>06/25/2022 18:19:08</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.min.map">
+      <publishTime>06/25/2022 18:19:08</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>06/25/2022 18:19:13</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>06/25/2022 18:19:13</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>06/25/2022 18:19:13</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>06/25/2022 18:19:13</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>06/25/2022 18:19:12</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>06/25/2022 18:19:02</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>06/25/2022 18:19:02</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>06/25/2022 18:19:02</publishTime>
+    </File>
+    <File Include="Views/ReasonExists/ReasonExistsList.cshtml">
+      <publishTime>07/14/2022 23:36:03</publishTime>
+    </File>
+    <File Include="Views/ReasonExists/ReasonExistsList.js">
+      <publishTime>07/16/2022 20:32:27</publishTime>
+    </File>
+    <File Include="Views/RootBranch/Index.cshtml">
+      <publishTime>06/26/2022 00:32:55</publishTime>
+    </File>
+    <File Include="Views/RootBranch/RootBranchGetById.cshtml">
+      <publishTime>07/05/2022 23:47:29</publishTime>
+    </File>
+    <File Include="Views/RootBranch/RootBranchIndex.cshtml">
+      <publishTime>07/24/2022 23:59:11</publishTime>
+    </File>
+    <File Include="Views/RootBranch/RootBranchList.cshtml">
+      <publishTime>07/16/2022 17:42:04</publishTime>
+    </File>
+    <File Include="Views/RootBranch/RootBranchList.js">
+      <publishTime>07/24/2022 23:45:30</publishTime>
+    </File>
+    <File Include="Views/RootBranch/RootBranchView.cshtml">
+      <publishTime>07/24/2022 22:49:03</publishTime>
+    </File>
+    <File Include="Views/RootBranch/RootBranchView.js">
+      <publishTime>07/24/2022 23:05:28</publishTime>
+    </File>
+    <File Include="Views/RootBranch/RootBranchView1.js">
+      <publishTime>07/17/2022 16:20:52</publishTime>
+    </File>
+    <File Include="Views/RootBranch/RootBranchViewProfile.cshtml">
+      <publishTime>07/14/2022 23:27:50</publishTime>
+    </File>
+    <File Include="Views/RootBranch/RootBranchViewProfile.js">
+      <publishTime>07/14/2022 23:27:47</publishTime>
+    </File>
+    <File Include="Views/RootPerson/RootPersonList.cshtml">
+      <publishTime>07/19/2022 23:03:20</publishTime>
+    </File>
+    <File Include="Views/RootPerson/RootPersonList.js">
+      <publishTime>07/19/2022 23:04:50</publishTime>
+    </File>
+    <File Include="Views/RootPost/RootPostGetById.cshtml">
+      <publishTime>07/03/2022 23:13:19</publishTime>
+    </File>
+    <File Include="Views/RootPost/RootPostList.cshtml">
+      <publishTime>07/14/2022 23:34:14</publishTime>
+    </File>
+    <File Include="Views/RootPost/RootPostList.js">
+      <publishTime>07/17/2022 14:36:00</publishTime>
+    </File>
+    <File Include="Views/RootPost/RootPostView.cshtml">
+      <publishTime>07/17/2022 14:37:18</publishTime>
+    </File>
+    <File Include="Views/RootPost/RootPostView.js">
+      <publishTime>07/17/2022 14:53:53</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>06/25/2022 18:19:02</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>07/14/2022 23:34:31</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>06/25/2022 18:19:02</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>06/25/2022 18:19:02</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/24/2022 22:22:25</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

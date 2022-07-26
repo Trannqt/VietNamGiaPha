@@ -1,0 +1,17 @@
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\LF.Business.Genealogy\obj\Debug\LF.Business.Genealogy.csproj.CoreCompileInputs.cache
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\LF.Business.Genealogy\bin\Debug\LF.Business.Genealogy.dll
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\LF.Business.Genealogy\bin\Debug\LF.Business.Genealogy.pdb
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\LF.Business.Genealogy\bin\Debug\ConnectDatabase.dll
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\LF.Business.Genealogy\bin\Debug\LF.Domain.Genealogy.dll
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\LF.Business.Genealogy\bin\Debug\LF.Repository.GenealogyMgt.dll
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\LF.Business.Genealogy\bin\Debug\Dapper.dll
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\LF.Business.Genealogy\bin\Debug\Newtonsoft.Json.dll
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\LF.Business.Genealogy\bin\Debug\ConnectDatabase.pdb
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\LF.Business.Genealogy\bin\Debug\LF.Domain.Genealogy.pdb
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\LF.Business.Genealogy\bin\Debug\LF.Repository.GenealogyMgt.pdb
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\LF.Business.Genealogy\bin\Debug\Dapper.xml
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\LF.Business.Genealogy\bin\Debug\Newtonsoft.Json.xml
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\LF.Business.Genealogy\obj\Debug\LF.Business.Genealogy.csproj.AssemblyReference.cache
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\LF.Business.Genealogy\obj\Debug\LF.Business.Genealogy.csproj.CopyComplete
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\LF.Business.Genealogy\obj\Debug\LF.Business.Genealogy.dll
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\LF.Business.Genealogy\obj\Debug\LF.Business.Genealogy.pdb

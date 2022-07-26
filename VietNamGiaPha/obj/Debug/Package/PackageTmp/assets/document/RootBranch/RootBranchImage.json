@@ -1,0 +1,84 @@
+﻿{
+  "Data": [
+    {
+      "RootBranchId": 1,
+      "RootBranchName": "Nguyễn",
+      "LinkImage": "tocnguyen.jpg"
+    },
+    {
+      "RootBranchId": 2,
+      "RootBranchName": "Trần",
+      "LinkImage": "toctran.jpg"
+    },
+    {
+      "RootBranchId": 3,
+      "RootBranchName": "Lê",
+      "LinkImage": "tocle.jpg"
+    },
+    {
+      "RootBranchId": 4,
+      "RootBranchName": "Phạm",
+      "LinkImage": "tocpham.jpg"
+    },
+    {
+      "RootBranchId": 5,
+      "RootBranchName": "Phan",
+      "LinkImage": "tocphan.jpg"
+    },
+    {
+      "RootBranchId": 6,
+      "RootBranchName": "Vũ",
+      "LinkImage": "tocvu.jpg"
+    },
+    {
+      "RootBranchId": 7,
+      "RootBranchName": "Võ",
+      "LinkImage": "tocvo.jpg"
+    },
+    {
+      "RootBranchId": 8,
+      "RootBranchName": "Hoàng",
+      "LinkImage": "tochoanh.jpg"
+    },
+    {
+      "RootBranchId": 9,
+      "RootBranchName": "Huỳnh",
+      "LinkImage": "tochuynh.jpg"
+    },
+    {
+      "RootBranchId": 10,
+      "RootBranchName": "Đặng",
+      "LinkImage": "tocdang.jpg"
+    },
+    {
+      "RootBranchId": 11,
+      "RootBranchName": "Bùi",
+      "LinkImage": "tocbui.jpg"
+    },
+    {
+      "RootBranchId": 12,
+      "RootBranchName": "Đỗ",
+      "LinkImage": "tocdo.jpg"
+    },
+    {
+      "RootBranchId": 13,
+      "RootBranchName": "Hồ",
+      "LinkImage": "tocho.jpg"
+    },
+    {
+      "RootBranchId": 14,
+      "RootBranchName": "Ngô",
+      "LinkImage": "tocngo.jpg"
+    },
+    {
+      "RootBranchId": 15,
+      "RootBranchName": "Dương",
+      "LinkImage": "tocduong.jpg"
+    },
+    {
+      "RootBranchId": 16,
+      "RootBranchName": "Lý",
+      "LinkImage": "tocly.jpg"
+    }
+  ]
+}

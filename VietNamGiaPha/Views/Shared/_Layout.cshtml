@@ -1,0 +1,472 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="vi">
+<head lang="vi">
+    <title>
+        Gia Phả Việt
+    </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!-- ================== Font =================== -->
+    <link rel="stylesheet" type="text/css" href="~/assets/font/font-awesome/css/font-awesome.min.css" />
+    @*<link rel="stylesheet" type="text/css" href="~/assets/font/mdi-~/assets/font/material-design-iconic-font.min.css" />*@
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- ================== Vendor CSS =================== -->
+    <link rel="stylesheet" type="text/css" href="~/assets/vendor/bootstrap4/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/vendor/owl-carousel/animate.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/vendor/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/vendor/owl-carousel/owl.theme.default.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/vendor/revolution/settings.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/vendor/revolution/navigation.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/vendor/revolution/layers.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/vendor/lightbox2/css/lightbox.css" />
+    <!-- Main CSS -->
+    <script>
+        var ViewBag = @Html.Raw(Json.Encode(this.ViewBag));
+        console.log(ViewBag);
+    </script>
+    <script src="~/assets/vendor/jquery-3.2.1.min.js" type="text/javascript"></script>
+    @*<script src="~/assets/js/jquery.min.js"></script>    *@
+    <link rel="stylesheet" type="text/css" href="~/assets/css/jquery.mmenu.all.css" />
+    <script type="text/javascript" src="~/assets/js/jquery.mmenu.all.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://rawgit.com/vitmalina/w2ui/master/dist/w2ui.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://rawgit.com/vitmalina/w2ui/master/dist/w2ui.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="~/assets/css/jquery.mhead.css" />
+    @*<link rel="stylesheet" type="text/css" href="~/assets/css/font.css" />*@
+    <link rel="stylesheet" type="text/css" href="~/assets/css/style.css" />
+    <link href="~/assets/css/default.css" rel="stylesheet" />
+    <link href="~/assets/css/nivo-slider.css" rel="stylesheet" />
+    <script type="text/javascript" src="~/assets/Scripts/VNGP/VietNamGiaPha.js"></script>
+
+    <meta name="DESCRIPTION" content="Gia Phả Việt" />
+    <meta name="twitter:title" content="Gia Phả Việt" />
+    @*<meta name="twitter:description" content="Gia Phả Việt"/><link href="https://bietthuphap.com.vn" rel="canonical" />*@
+    @*<meta name="robots" content="index, follow"/>*@
+    @*<meta name="google-site-verification" content="twyXvAMclrA2XLUkyT1-sgtpefg79lJggSNTYq4JMcM" />*@
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    @*<script async src="https://www.googletagmanager.com/gtag/js?id=G-SK73D5SWMY"></script>*@
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-SK73D5SWMY');
+    </script>
+    <style>
+        #nav-sticky {
+            /*overflow: hidden;*/
+            z-index: 99;
+        }
+
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        .my-fs-17 {
+            font-size: 17px;
+        }
+
+        .box-description {
+            background: #181717;
+            padding: 15px;
+        }
+
+        #div-header {
+            /*    min-width:1024px;
+        max-width:1024px;*/
+            width: 85%;
+            margin: 0 auto;
+        }
+
+        #div-footer {
+            /*    min-width: 1024px !important;
+        max-width: 1024px !important;*/
+            width: 85%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .myGrid:nth-child(even) {
+            background: red;
+        }
+
+        .w2ui-odd {
+            height: 44px !important;
+            background-color: #dbebfe !important;
+            font-weight: bold !important;
+        }
+
+        .w2ui-even {
+            height: 44px !important;
+            background-color: #ffffff !important;
+            font-weight: bold !important;
+        }
+
+        .my-input {
+            height: 35px;
+            padding: 0.5rem 0.75rem;
+            font-size: 1rem;
+            line-height: 1.25;
+            color: #495057;
+            background-color: #fff;
+            background-image: none;
+            background-clip: padding-box;
+            border: 1px solid rgba(0,0,0,.15);
+            border-radius: 0.25rem;
+            transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        }
+
+        .my-header-grid {
+            background: #78b7fc;
+            height: 55px;
+            line-height: 55px;
+            padding: 0px 5px 0px 5px;
+        }
+
+        #grid_myGrid_header {
+            background: rgb(120, 183, 252);
+            height: 54px !important;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+        }
+
+        .my-btn-in-grid {
+            height: 35px !important;
+        }
+    </style>
+</head>
+<body lang="vi">
+    <header class="bg-dark hidden-xs sticky" id="nav-sticky">
+        <div class="head-logo" id="div-header">
+            <div class="col-md-12 col-lg-2 justify-content-center align-self-center">
+                <a id="header1_hpl" title="Gia Phả Việt" href="~/assets/ReasonExists/ReasonExistsList">
+                    <img id="header1_img_logo"
+                         style="height:50px;" src="~/assets/upload/home/logo-mini.png"
+                         alt="Gia Phả Việt" />
+                </a>
+            </div>
+            <div class="col-md-12 col-lg-8">
+                <nav class="navbar navbar-expand-lg navbar-border bg-black" style="line-height:2;">
+                    <ul class="ul--inline ul--no-style list-center">
+                        <li class="li-has-sub">
+                            <a href="~/RootBranch/RootBranchList"><i class="fa fa-home" aria-hidden="true"></i>Tìm về cội nguồn</a>
+                        </li>
+                        <li>
+                            <a href="~/ReasonExists/ReasonExistsList"><i class="fa fa-bars" aria-hidden="true"></i>Lý do tồn tại</a>
+                        </li>
+                        <li>
+                            <a href="~/RootPost/RootPostList"><i class="fa fa-users" aria-hidden="true"></i>Đạo lý làm người</a>
+                        </li>
+
+                        @{
+                            var isShow1 = Session["flagShow"];
+                            var branchID1 = Session["branchId"];
+
+                            if (isShow1 == "show")
+                            {
+                                <li class="li-has-sub" id="subMenuBranch" style="display:none;">
+                                    <a href="javascript:;" onclick="window.location.reload(true);">Tộc họ</a>
+                                    <ul class="sub-menu ul--no-style">
+                                        <li>
+                                            <a href="/RootBranch/RootBranchViewProfile?commandAction.Id=@branchID1&commandAction.ProfileId=1">Thủy tổ</a>
+                                            <a href="/RootBranch/RootBranchViewProfile?commandAction.Id=@branchID1&commandAction.ProfileId=2">Phả ký</a>
+                                            <a href="/RootBranch/RootBranchViewProfile?commandAction.Id=@branchID1&commandAction.ProfileId=3">Tộc ước</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                            }
+                        }
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-lg-2 col-md-12 text-right d-none d-sm-block p-t-15">
+                <div class="col-w-200 text-right">
+                    <p class="text-white">
+                        <div class="btn-group">
+                            @*<button type="button" class="btn btn-support" href="https://www.facebook.com/giaphavietfree/">Tư vấn miễn phí</button>*@
+                            <a href="tel:0948932555" id="header1_hotline" class="text-white">
+                                <i class="fa fa-phone text-muted" aria-hidden="true"></i>
+                                0333.442.814
+                            </a>
+                            <a class="dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"
+                               style="color: white;">
+                                <span b-u8mt1191v2="" class="sr-only">Toggle Dropdown</span>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a href="https://www.facebook.com/giaphavietfree/" id="header1_facebook" class="dropdown-item text-muted">
+                                    <i class="fa fa-facebook"></i> Facebook
+                                </a>
+                                <a href="https://www.youtube.com/channel/UCTpp9F6EwzaX7L_nJnCNuQg/featured" id="header1_youtube" class="dropdown-item text-muted">
+                                    <i class="fa fa-youtube"></i> Youtube
+                                </a>
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Separated link</a>
+                            </div>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <header class="header-mobile">
+        <div class="container clearfix">
+            <div class="logo pull-left">
+                <a id="header1_HyperLink7" href="~/assets/ReasonExists/ReasonExistsList"><img id="header1_img_mb" class="img-responsive" src="~/assets/upload/home/logo-mini.png" alt="Gia Phả Việt" /></a>
+            </div>
+            <a class="menu-mobile__button">
+                <i class="fa fa-bars"></i>
+            </a>
+            <nav class="menu-mobile hidden">
+                <ul class="ul--no-style">
+                    <li class="li-has-sub">
+                        <a href="~/assets/Branch"><i class="fa fa-home" aria-hidden="true"></i>Tìm về cội nguồn</a>
+                    </li>
+                    <li>
+                        <a href="~/assets/ReasonExists/ReasonExistsList"><i class="fa fa-bars" aria-hidden="true"></i>Lý do tồn tại</a>
+                    </li>
+                    <li>
+                        <a href="~/assets/Post"><i class="fa fa-users" aria-hidden="true"></i>Đạo lý làm người</a>
+                    </li>
+                    @*@{
+                            var isShow = @Context.Session.GetString("flagShow");
+                            var branchID = @Context.Session.GetString("branchId");
+
+                            if (isShow == "show")
+                            {
+                                <li id="subMenuBranchMobile">
+                                    <i class="fa fa-plus menu-mobile__more"></i>
+                                    <a id="header1_rpt_mbmenu_HyperLink1_0" href="thiet-ke-kien-truc-mid-1">Tộc họ</a>
+                                    <ul class="ul--no-style hidden">
+                                        <li>
+                                            <a href="/InformationBranch/Root/@branchID">Thủy tổ</a>
+                                        </li>
+                                        <li>
+                                            <a href="/InformationBranch/Informations/@branchID">Phả ký</a>
+                                        </li>
+                                        <li>
+                                            <a href="/InformationBranch/Rules/@branchID">Tộc ước</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                        }*@
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container-fluid" style="padding-top:60px;width:85%; margin: 0 auto;">
+        @RenderBody()
+    </div>
+
+    <footer class="construct">
+        <div class="container-fluid" id="div-footer">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                    <div class="pb-30"><img id="footer1_img" style="height:125px;" class="img-responsive" src="~/assets/upload/home/logo.png" alt="Gia Phả Việt" /></div>
+                    <div class="title-4 cl-gold">
+                        Gia Phả Việt
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                    <div class="title-4 cl-gold">Địa chỉ</div>
+                    <ul class="contact-info">
+                        <li><a style="color: #b38d45;" class="text"><i class="fa fa-map-marker"></i>Quận 7, TP. Hồ Chí Minh</a></li>
+                        <li><a style="color: #b38d45;" class="text"><i class="fa fa-phone"></i>0333.442.814</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                    <div class="title-4 cl-gold">menu</div>
+                    <ul class="contact-info">
+                        <li>
+                            <a style="color: #b38d45;" id="header1_HyperLink8" href="~/ReasonExists/ReasonExistsList">Lý do tồn tại</a>
+                        </li>
+                        <li class="li-has-sub">
+                            <a style="color: #b38d45;" id="header1_HyperLink9" href="~/RootBranch">Tìm về cội nguồn</a>
+                        </li>
+                        <li>
+                            <a style="color: #b38d45;" id="header1_HyperLink10" href="~/RootPost">Đạo lý làm người</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <input id="flagShow" type="hidden" value="@Session["flagShow"]" />
+    <input id="hdBranchId" type="hidden" value="@Session["branchId"]" />
+    <div style="height:0;width:0;overflow:hidden">
+        <!-- Global site tag (gtag.js) - Google Ads: 877619661 -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-877619661"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'AW-877619661');
+        </script>
+    </div>
+
+    <div class="mobile-hotline">
+        <div class="mb-mobile">
+            <div class="mobile-hotline-left">
+                <a href="https://zalo.me/0948932555" id="footer1_zalo" target="_blank">
+                    <span>
+                        <img id="footer1_Image1" src="~/assets/upload/icon/zalo.png" alt="Zalo : 0333.442.814" />
+                    </span>
+                    <strong>
+                        0333.442.814
+                    </strong>
+                </a>
+            </div>
+            <div class="mobile-hotline-right">
+                <a href="tel:0333.442.814" id="footer1_hotline" target="_blank">
+                    <span>
+                        <img id="footer1_Image3" src="~/assets/upload/icon/phone.png" alt="hotline" />
+                    </span>
+                    <strong>
+                        0333.442.814
+                    </strong>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- =================== PLUGIN JS ==================== -->
+
+    <script src="~/assets/js/jquery.nivo.slider.js"></script>
+    @*    <script type="text/javascript">
+            $(window).load(function () {
+                $('#slider').nivoSlider();
+            });
+        </script> *@
+
+    <script src="~/assets/vendor/wow/wow.min.js" type="text/javascript"></script>
+    <script src="~/assets/vendor/lightbox2/js/lightbox.js" type="text/javascript"></script>
+    <script src="~/assets/vendor/bootstrap4/popper.min.js" type="text/javascript"></script>
+    <script src="~/assets/vendor/bootstrap4/bootstrap.min.js" type="text/javascript"></script>
+    <script src="~/assets/vendor/owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
+    <script src="~/assets/vendor/revolution/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
+    <script src="~/assets/vendor/revolution/jquery.themepunch.tools.min.js" type="text/javascript"></script>
+    <!-- Local Revolution -->
+    <script type="text/javascript" src="~/assets/vendor/revolution/local/revolution.extension.migration.min.js"></script>
+    <script type="text/javascript" src="~/assets/vendor/revolution/local/revolution.extension.actions.min.js"></script>
+    <script type="text/javascript" src="~/assets/vendor/revolution/local/revolution.extension.carousel.min.js"></script>
+    <script type="text/javascript" src="~/assets/vendor/revolution/local/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="~/assets/vendor/revolution/local/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="~/assets/vendor/revolution/local/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="~/assets/vendor/revolution/local/revolution.extension.parallax.min.js"></script>
+    <script type="text/javascript" src="~/assets/vendor/revolution/local/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="~/assets/vendor/revolution/local/revolution.extension.video.min.js"></script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            lightbox.option({
+                'resizeDuration': 200,
+                'wrapAround': false,
+                'alwaysShowNavOnTouchDevices': true,
+            });
+        });
+    </script>
+
+    <!-- =================== CUSTOM JS ==================== -->
+    <script type="text/javascript" src="~/assets/js/main.js"></script>
+    <script type="text/javascript" src="~/assets/js/revo-custom.js"></script>
+    <script type="text/javascript" src="~/assets/js/wow-custom.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Configure/customize these variables.
+            var showChar = 200;  // How many characters are shown by default
+            var ellipsestext = "...";
+            var moretext = "<i class=\"fa fa-plus-square\" aria-hidden=\"true\"></i>";
+            var lesstext = "<i class=\"fa fa-minus-square\" aria-hidden=\"true\"></i>";
+
+
+            $('.more').each(function () {
+                var content = $(this).html();
+
+                if (content.length > showChar) {
+
+                    var c = content.substr(0, showChar);
+                    var h = content.substr(showChar, content.length - showChar);
+
+                    var html = c + '<span class="moreellipses">' + ellipsestext + '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink"><i class="fa fa-plus-square" aria-hidden="true"></i></a></span>';
+
+                    $(this).html(html);
+                }
+
+            });
+
+            $(".morelink").click(function () {
+                if ($(this).hasClass("less")) {
+                    $(this).removeClass("less");
+                    $(this).html(moretext);
+                } else {
+                    $(this).addClass("less");
+                    $(this).html(lesstext);
+                }
+                $(this).parent().prev().toggle();
+                $(this).prev().toggle();
+                return false;
+            });
+
+            var flagShow = $("#flagShow").val();
+            var branchId = $("#hdBranchId").val();
+            console.log(flagShow, branchId);
+            if (flagShow == "show") {
+                $("#subMenuBranch").css("display", "block");
+                var html = `<a href="javascript:;" onclick="window.location.reload(true);">Tộc họ</a>
+                                            <ul class="sub-menu ul--no-style">
+                                                <li>
+                                                    <a href="/RootBranch/RootBranchViewProfile?commandAction.Id=${branchId}&commandAction.ProfileId=1">Thủy tổ</a>
+                                                    <a href="/RootBranch/RootBranchViewProfile?commandAction.Id=${branchId}&commandAction.ProfileId=2">Phả ký</a>
+                                                    <a href="/RootBranch/RootBranchViewProfile?commandAction.Id=${branchId}&commandAction.ProfileId=3">Tộc ước</a>
+                                                </li>
+                                            </ul>`;
+
+                $("#subMenuBranch").html(html);
+            }
+        });
+    </script>
+    <script type="text/javascript" src="~/assets/js/jquery.twbsPagination.js"></script>
+    <script type="text/javascript" src="~/assets/js/OrgChartJS/orgchart.js"></script>
+    <script type="text/javascript" src="~/assets/Scripts/VNGP/VietNamGiaPha.js"></script>
+
+    @{
+        var controller = ViewContext.RouteData.Values["controller"].ToString();
+        var action = ViewContext.RouteData.Values["action"].ToString();
+
+        Func<string, string> GetFileNameJavascript = (rootPath) =>
+        {
+            string tmpFileName = string.Format("{0}/{1}/{2}.js", rootPath, controller, action);
+            return tmpFileName;
+        };
+        string javascriptFileName = GetFileNameJavascript("/Views");
+
+        if (controller == null && action == null)
+        {
+            <h1>Empty</h1>
+        }
+        else
+        {
+            <script type="text/javascript" src="@javascriptFileName"></script>
+        }
+    }
+
+</body>
+</html>

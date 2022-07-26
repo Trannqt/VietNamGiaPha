@@ -1,0 +1,110 @@
+﻿@{
+    ViewData["Title"] = "Post Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .advanced {
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 500
+    }
+
+    .btn-secondary,
+    .btn-secondary:focus,
+    .btn-secondary:active {
+        color: #fff;
+        background-color: #00838f !important;
+        border-color: #00838f !important;
+        box-shadow: none
+    }
+
+    .advanced {
+        color: #00838f !important
+    }
+
+    .form-control:focus {
+        box-shadow: none;
+        border: 1px solid #00838f
+    }
+
+    .select2-container .select2-selection--single {
+        height: 34px !important;
+    }
+
+    .select2-container--default .select2-selection--single {
+        border: 1px solid #ccc !important;
+        border-radius: 0px !important;
+    }
+</style>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+
+<section class="bg--f8 bor-none">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="title title-2 cl-gold title-bor">
+                    @*<span class="top-title">
+                        </span>*@
+                    <span class="title-heading">
+                        Bài Viết Nổi Bật
+                    </span>
+                    <span class="bot-title">
+                    </span>
+                </h1>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 30px;width: 90%;margin-left: 5%;margin-right: 5%;">
+            <div class="col-sm-4">
+                <div class="container-full">
+                    <div class="row">
+                        <div class="col-md-12" style="margin-bottom: 5px;">
+                            <div class="row" style="width:100%;">
+                                <div class="col-md-8"> <input id="txtSearch" type="text" class="form-control" placeholder="Nhập nội dung tìm kiếm..."> </div>
+                                <div class="col-md-4"> <button class="btn btn-warning btn-block" id="btnSearch">Tìm kiếm</button> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <ul class="justify-content-center paginationPost" style="float:right;">
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row" id="Post_listPost">
+            <!--Loading Skeleton-->
+            <div class="card loading">
+                <div class="user-info">
+                    <div class="logo">
+                        <img src="h#" alt="logo">
+                    </div>
+                    <div class="name"></div>
+                </div>
+                <div class="content" style="height:350px"></div>
+            </div>
+            <!--End Loading Skeleton-->
+        </div>
+        <div class="row" style="margin-bottom: 20px;width: 90%;margin-left: 5%;margin-right: 5%;">
+            <div class="col-sm-4">
+                <div class="container-full">
+                    <div class="row">
+                        <div class="col-md-12">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 m-b-30">
+                <ul class="justify-content-center paginationPost" style="float:right;">
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

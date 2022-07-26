@@ -1,0 +1,152 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+
+    .content {
+        float: left;
+        width: 75%;
+        padding: 40px 20px;
+        color: white;
+    }
+
+    .sidebar {
+        float: right;
+        width: 25%;
+        /*padding: 40px;*/
+        background: #ecffb7;
+        height: 100%;
+        /*margin-top:10px;*/
+    }
+
+        .sidebar h2 {
+            font-size: 20px;
+            font-weight: 500;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+    .img-box {
+        float: left;
+        width: 400px;
+        height: 300px;
+        margin-right: 50px;
+        margin-left: 20px;
+        background: url(https://s3.envato.com/files/268565813/Exercise_with_ball_04.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .text h2 {
+        font-weight: 500;
+        font-size: 28px;
+        margin-bottom: 50px;
+    }
+
+    .text p {
+        max-width: 1000px;
+        font-weight: 500;
+    }
+
+    .box2 {
+        clear: both;
+        padding: 40px 0px;
+    }
+
+    .box3 {
+        clear: both;
+        padding: 40px 0px;
+    }
+
+    .img-ctn {
+        height: 300px;
+        padding-right: 50px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+        .img-ctn img {
+            max-width: 100%;
+            height: 100%;
+        }
+
+    .sidebar p {
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .box2 h2 {
+        color: white;
+    }
+</style>
+
+<section class="we-are">
+    <div class="container-fluid">
+        <div class="row no-gutters">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-6 wow slideInLeft" data-wow-delay=".6s" style="height:326px !important;">
+                <div class="list-bt"></div>
+                <div class="list-lr"></div>
+                <div class="list-it"></div>
+                <div class="list-ib"></div>
+                <div class="we-are__left" id="reason_linkyoutube">
+                    @*<iframe id="reason_linkyoutube" width="560" height="315" src="#" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>*@
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-6 wow slideInRight" data-wow-delay=".6s">
+                <div class="we-are__right">
+                    <h1 class="cl-gold">
+                        Việt Nam Gia Phả
+                    </h1>
+                    <div style="text-align:justify" id="reason_reason">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="break-item wow slideInUp" data-wow-delay=".6s"></div>
+        <div class="row main-content wow slideInUp" data-wow-delay=".6s">
+            <div class="col-12">
+                <p style="text-align:center"><img id="reason_imagethumbnail" alt="thiết kế biệt thự pháp" src="#" style="height:803px; width:1200px" /></p>
+                <div id="reason_description"></div>
+            </div>
+        </div>
+        <div class="break-item wow slideInUp" data-wow-delay=".6s"></div>
+        <div class="container-fluid">
+            @*  <main>*@
+
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-border bg-black">
+                    <ul class="ul--inline ul--no-style list-center">
+                        <li>
+                            <a class="Post_Menu" id="Post_tab2" href="javascript:;">Lịch sử các tộc họ Việt Nam</a>
+                        </li>
+                        <li class="li-has-sub">
+                            <a class="Post_Menu" id="Post_tab3" href="javascript:;">Bài học sống</a>
+                        </li>
+                        <li>
+                            <a class="Post_Menu" id="Post_tab4" href="javascript:;">Tổ ấm</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-sm-8 col-md-8 content" id="Post_listPost"></div>
+
+                <div class="col-12 col-sm-4 col-md-4 sidebar" style="max-height:800px;background: #ddd;" id="Post_resultRightMenu">
+                </div>
+            </div>
+
+            <div class="row">
+                <ul class="justify-content-center" id="paginHome">
+
+                    <li>1</li>
+                </ul>
+            </div>
+            @* </main>*@
+        </div>
+    </div>
+</section>
+
+<div class='clear' style="clear: left;">&#160;</div>

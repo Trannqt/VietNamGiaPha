@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D86676B7-3372-4D5A-BE26-7E9964484690}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LF.Repository.GenealogyMgt</RootNamespace>
+    <AssemblyName>LF.Repository.GenealogyMgt</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LocationMgt\LocationSearchRepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReasonExistsMgt\ReasonExistsSearchRepository.cs" />
+    <Compile Include="RootBranchMgt\RootBranchGetBranchByIdRepository.cs" />
+    <Compile Include="RootBranchMgt\RootBranchGetByIdRepository.cs" />
+    <Compile Include="RootBranchMgt\RootBranchImageListRepository.cs" />
+    <Compile Include="RootBranchMgt\RootBranchIndexRepository.cs" />
+    <Compile Include="RootBranchMgt\RootBranchSearchAndGetTotalPagesRepository.cs" />
+    <Compile Include="RootBranchMgt\RootBranchSearchRepository.cs" />
+    <Compile Include="RootBranchMgt\RootBranchViewGetInfoRepository.cs" />
+    <Compile Include="RootBranchMgt\RootBranchViewProfilePhaKyRepository.cs" />
+    <Compile Include="RootBranchMgt\RootBranchViewProfileThuyToRepository.cs" />
+    <Compile Include="RootBranchMgt\RootBranchViewProfileTocUocRepository.cs" />
+    <Compile Include="RootPersonMgt\RootPersonGetParametersByIdRepository.cs" />
+    <Compile Include="RootPersonMgt\RootPersonListRepository.cs" />
+    <Compile Include="RootPersonMgt\RootPersonSearchAndGetTotalPagesRepository.cs" />
+    <Compile Include="RootPersonMgt\RootPersonSearchRepository.cs" />
+    <Compile Include="RootPersonMgt\RootPersonTreeExecuteSearchRepository.cs" />
+    <Compile Include="RootPostMgt\RootPostGetByIdRepository.cs" />
+    <Compile Include="RootPostMgt\RootPostSearchAndGetTotalPagesRepository.cs" />
+    <Compile Include="RootPostMgt\RootPostSearchRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="RootBranchMgt\Procedures\vngp_RootBranch_RootBranchSearchAndGetTotalPages.sql" />
+    <Content Include="RootBranchMgt\Procedures\vngp_RootBranch_RootBranchViewProfileTocUocRepository.sql" />
+    <Content Include="RootBranchMgt\Procedures\vnsp_RootBranch_RootBranchGetBranchById.sql" />
+    <Content Include="RootBranchMgt\Procedures\vnsp_RootBranch_RootBranchGetById.sql" />
+    <Content Include="RootBranchMgt\Procedures\vnsp_RootBranch_RootBranchIndex.sql" />
+    <Content Include="RootBranchMgt\Procedures\vnsp_RootBranch_RootBranchSearch.sql" />
+    <Content Include="RootBranchMgt\Procedures\vnsp_RootBranch_RootBranchViewGetInfo.sql" />
+    <Content Include="RootBranchMgt\Procedures\vnsp_RootBranch_RootBranchViewProfilePhaKy.sql" />
+    <Content Include="RootBranchMgt\Procedures\vnsp_RootBranch_RootBranchViewProfileThuyTo.sql" />
+    <Content Include="RootPersonMgt\Procedures\vngp_RootPerson_RootPersonTreeExecuteSearch.sql" />
+    <Content Include="RootPersonMgt\Procedures\vnsp_RootPerson_RootPersonSearch.sql" />
+    <Content Include="RootPersonMgt\Procedures\vngp_RootPerson_RootPersonSearchAndGetTotalPagesByBranchId.sql" />
+    <Content Include="RootPostMgt\Procedures\vngp_RootPost_RootPostSearchAndGetTotalPages.sql" />
+    <Content Include="RootPostMgt\Procedures\vnsp_RootPost_RootPostGetById.sql" />
+    <Content Include="RootPostMgt\Procedures\vnsp_RootPost_RootPostSearch.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="LocationMgt\Procedures\" />
+    <Folder Include="ReasonExistsMgt\Procedures\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ConnectDatabase\ConnectDatabase.csproj">
+      <Project>{EB4D94FA-8D89-4471-B68C-5FF4DB0CD90F}</Project>
+      <Name>ConnectDatabase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LF.Domain.Genealogy\LF.Domain.Genealogy.csproj">
+      <Project>{B50B66D3-264A-4DFA-B959-677344B38DA5}</Project>
+      <Name>LF.Domain.Genealogy</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

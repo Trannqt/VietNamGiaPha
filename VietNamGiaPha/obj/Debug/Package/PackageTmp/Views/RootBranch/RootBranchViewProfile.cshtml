@@ -1,0 +1,72 @@
+﻿@{
+    ViewData["Title"] = "RootBranchViewProfile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="blog blog-3 bg--f8 bor-none">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="title title-2 cl-gold title-bor m-b-20">
+                    <span class="title-heading">
+
+                        @{
+                            if (ViewBag.Result.Count > 0)
+                            {
+                                if (ViewBag.ProfileId == 1)
+                                {
+                                    <a id="root_Title" class="cl-gold" href="du-an-noi-bat-nid-6">
+                                        VIẾT VỀ THUỶ TỔ CỦA DÒNG HỌ
+                                    </a>
+                                }
+                                else if (ViewBag.ProfileId == 2)
+                                {
+                                    <a id="root_Title" class="cl-gold" href="du-an-noi-bat-nid-6">
+                                        VIẾT VỀ GIA SỬ CỦA DÒNG HỌ
+                                    </a>
+                                }
+                                else
+                                {
+                                    <a id="root_Title" class="cl-gold" href="du-an-noi-bat-nid-6">
+                                        TỘC ƯỚC - GIA PHÁP
+                                    </a>
+                                }
+                            }
+                        }
+                    </span>
+                    <span class="bot-title">
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="row main-content">
+            <div class="col-12">
+                <div id="root_Description">
+                </div>
+                <br />
+                <div class="share" id="root_Footer">
+                    <div class="row">
+                        <div class="col-6">
+                            <span>
+                                <i class="fa fa-calendar-check-o" aria-hidden="true"></i> Ngày đăng :
+                            </span>
+                        </div>
+                        <div class="col-6 text-right">
+                            <span>
+                                <i class="fa fa-share-alt-square" aria-hidden="true"></i> Chia sẻ :
+                            </span>
+                            <span>
+                                <a href="javascript:;" id="news1_facebook" class="f-share">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="break-item">
+        </div>
+
+    </div>
+</section>

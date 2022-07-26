@@ -1,0 +1,133 @@
+﻿@{
+    ViewData["Title"] = "RootBranchIndex";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using Newtonsoft.Json;
+@{
+    var item = JsonConvert.DeserializeObject(JsonConvert.SerializeObject(Model));
+    string Name = "";
+    string Address = "";
+    string Slogan = "";
+    string TeXuanHoliday = "";
+    string TeThuHoliday = "";
+    string HoiMaHoliday = "";
+    string AdminRootPersonId = "";
+    string AdminAddress = "";
+    string AdminEmail = "";
+    string AdminPhone = "";
+    int LevelBranch = 0;
+    int FamilyNumber = 0;
+    int PersonNumber = 0;
+
+    if (item.Count > 0)
+    {
+        foreach (var item_ in item)
+        {
+            Name = item_["Name"] == null ? "" : item_["Name"].ToString();
+            Address = item_["Address"] == null ? "" : item_["Address"].ToString();
+            Slogan = item_["Slogan"] == null ? "" : item_["Slogan"].ToString();
+            TeXuanHoliday = item_["TeXuanHoliday"] == null ? "" : item_["TeXuanHoliday"].ToString();
+            TeThuHoliday = item_["TeThuHoliday"] == null ? "" : item_["TeThuHoliday"].ToString();
+            HoiMaHoliday = item_["HoiMaHoliday"] == null ? "" : item_["HoiMaHoliday"].ToString();
+            AdminRootPersonId = item_["AdminRootPersonId"] == null ? "" : item_["AdminRootPersonId"].ToString();
+            AdminAddress = item_["AdminAddress"] == null ? "" : item_["AdminAddress"].ToString();
+            AdminEmail = item_["AdminEmail"] == null ? "" : item_["AdminEmail"].ToString();
+            AdminPhone = item_["AdminPhone"] == null ? "" : item_["AdminPhone"].ToString();
+            Int32.TryParse(item_["LevelBranch"] == null ? "0" : item_["LevelBranch"].ToString(), out LevelBranch);
+            Int32.TryParse(item_["FamilyNumber"] == null ? "0" : item_["FamilyNumber"].ToString(), out FamilyNumber);
+            Int32.TryParse(item_["PersonNumber"] == null ? "0" : item_["PersonNumber"].ToString(), out PersonNumber);
+        }
+    }
+}
+
+<style>
+    .btn-grad {
+        background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff 51%, #ff6e7f 100%);
+        padding: 5px 8px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;
+        border-radius: 10px;
+        border: 1px solid transparent;
+        width:120px;
+    }
+
+        .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+            cursor: pointer;
+            border: 1px solid transparent;
+        }
+</style>
+
+<section class="contact-content">
+    <div class="container-fluid">
+        <div class="col-md-12 slideInUp" data-wow-delay=".6s">
+            <h2 class="title title-2 cl-gold">
+                @*<span class="title-heading">Gia phả</span>*@
+                <p>@Name</p>
+                <p style="font-size: 50%;text-transform: initial;">@Address</p>
+                @*<span class="bot-title">
+                </span>*@
+            </h2>
+        </div>
+
+        <div class="main-content wow slideInUp bor-contact" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: slideInUp;">
+            <div class="container-full" style="margin: 0 auto !important;/* padding-left: 35px; *//* width: 100%; */">
+                <div class="row" style="margin: 0 auto;">
+                    <div class="col-lg-10 col-md-10 col-sm-10 col-10 text-justify" style="margin: 0 auto;">
+                        <h1 class="m-b-30 cl-gold">
+                            @Slogan
+                            <button class="btn-grad" onclick="onRootBranchView();">
+                                Gia phả
+                                <i class="fa fa-sign-in cl-gold"></i>
+                            </button>
+                            <button class="btn-grad" onclick="onRootPersonList();">
+                                Thành viên
+                                <i class="fa fa-sign-in cl-gold"></i>
+                            </button>
+                        </h1>
+
+                        <div class="get-in-touch-widget" style="/* margin: 0 auto !important; */">
+                            <ul class="list-unstyled">
+                                <li>Các ngày lễ giỗ:</li>
+                                <li><i class="fa fa-calendar cl-gold"></i>Ngày tế xuân: @TeXuanHoliday</li>
+                                <li><i class="fa fa-calendar cl-gold"></i>Ngày tế thu: @TeThuHoliday</li>
+                                <li><i class="fa fa-calendar cl-gold"></i>Ngày hội mã: @HoiMaHoliday</li>
+                            </ul>
+                            <ul class="list-unstyled">
+                                <li>Tổng quan gia phả:</li>
+                                <li><i class="fa fa-user-plus cl-gold"></i>Số đời từ thuỷ tổ tới con cháu: @LevelBranch</li>
+                                <li><i class="fa fa-users cl-gold"></i>Số lượng gia đình: @FamilyNumber</li>
+                                <li><i class="fa fa-user cl-gold"></i>Số người: @PersonNumber</li>
+                            </ul>
+                            <ul class="list-unstyled">
+                                <li>Thông tin người quản lý gia phả này:</li>
+                                <li><i class="fa fa-user-secret  cl-gold"></i>Người làm: @AdminRootPersonId</li>
+                                <li><i class="fa fa-map-marker cl-gold"></i>Địa chỉ: @AdminAddress</li>
+                                <li><i class="fa fa-envelope cl-gold"></i>Email: @AdminEmail</li>
+                                <li><i class="fa fa-phone cl-gold"></i>Điện thoại: @AdminPhone</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        @* <div class="break-item wow slideInUp" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: slideInUp;"></div>*@
+    </div>
+</section>
+<script>
+    function onRootBranchView() {
+        var arr = location.href.split('/');
+        window.location.replace(`/RootBranch/RootBranchView/${arr[arr.length - 1]}`);
+    }
+
+    function onRootPersonList() {
+        var arr = location.href.split('/');
+        window.location.replace(`/RootPerson/RootPersonList/${arr[arr.length - 1]}`);
+    }
+</script>

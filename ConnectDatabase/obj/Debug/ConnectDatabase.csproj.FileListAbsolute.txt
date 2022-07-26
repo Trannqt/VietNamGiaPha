@@ -1,0 +1,9 @@
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\ConnectDatabase\bin\Debug\ConnectDatabase.dll
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\ConnectDatabase\bin\Debug\ConnectDatabase.pdb
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\ConnectDatabase\bin\Debug\Dapper.dll
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\ConnectDatabase\bin\Debug\Dapper.xml
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\ConnectDatabase\obj\Debug\ConnectDatabase.csproj.CoreCompileInputs.cache
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\ConnectDatabase\obj\Debug\ConnectDatabase.csproj.CopyComplete
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\ConnectDatabase\obj\Debug\ConnectDatabase.dll
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\ConnectDatabase\obj\Debug\ConnectDatabase.pdb
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\ConnectDatabase\obj\Debug\ConnectDatabase.csproj.AssemblyReference.cache

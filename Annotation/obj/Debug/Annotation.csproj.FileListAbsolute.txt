@@ -1,0 +1,6 @@
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\Annotation\bin\Debug\Annotation.dll
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\Annotation\bin\Debug\Annotation.pdb
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\Annotation\obj\Debug\Annotation.csproj.CoreCompileInputs.cache
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\Annotation\obj\Debug\Annotation.dll
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\Annotation\obj\Debug\Annotation.pdb
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\Annotation\obj\Debug\Annotation.csproj.AssemblyReference.cache
