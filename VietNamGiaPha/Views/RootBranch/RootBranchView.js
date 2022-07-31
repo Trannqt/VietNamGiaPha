@@ -591,12 +591,12 @@ var Person = {
                         debugger
                         var tags = [];
                         var tmpImage = 'man.png';
+
+                        ele.Sex = ele.Sex == 0 ? "Nữ" : "Nam";
                         if (ele.Sex == 'Nữ') tmpImage = 'woman.png';
                         else tmpImage = 'man.png';
-
                         ele.img = `/assets/upload/rootbranchtree/${tmpImage}`;
                         ele.BranchName = ele.RootBranchId == BranchId ? `Tộc: ${BranchName}` : "";
-
                         ele.SexAndPhone = ele.Sex + " - " + ele.Phone;
 
                         if (ele.tags == "partner") {
@@ -611,10 +611,8 @@ var Person = {
                         if (ele.tags == "partner") {
                             tags.push('partner');
                         }
-                        console.log(tags);
                         ele.tags = tags;
                     });
-                    console.log(result);
                     chart.load(result);
                 }
             });

@@ -80,6 +80,7 @@
     <Content Include="RootBranchMgt\Procedures\vnsp_RootBranch_RootBranchViewProfilePhaKy.sql" />
     <Content Include="RootBranchMgt\Procedures\vnsp_RootBranch_RootBranchViewProfileThuyTo.sql" />
     <Content Include="RootPersonMgt\Procedures\vngp_RootPerson_RootPersonSearchAndGetTotalPages.sql" />
+    <Content Include="RootPersonMgt\Procedures\vngp_RootPerson_RootPersonTreeExecuteSearch-verOld.sql" />
     <Content Include="RootPersonMgt\Procedures\vngp_RootPerson_RootPersonTreeExecuteSearch.sql" />
     <Content Include="RootPersonMgt\Procedures\vnsp_RootPerson_RootPersonSearch.sql" />
     <Content Include="RootPersonMgt\Procedures\vnsp_RootPerson_RootPersonTreeList.sql" />

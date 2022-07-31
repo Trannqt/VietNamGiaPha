@@ -6,3 +6,4 @@ D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\ConnectDatabase\obj\D
 D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\ConnectDatabase\obj\Debug\ConnectDatabase.csproj.CopyComplete
 D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\ConnectDatabase\obj\Debug\ConnectDatabase.dll
 D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\ConnectDatabase\obj\Debug\ConnectDatabase.pdb
+D:\_vs\2022-06_quan-ly-gia-pha\VietNamGiaPha\VietNamGiaPha\ConnectDatabase\obj\Debug\ConnectDatabase.csproj.AssemblyReference.cache

@@ -280,7 +280,7 @@ BEGIN
                 ) Rs ';
 	IF LEN(@txtSearch)>0
 		SET @query = @query + '
-			WHERE Rs.Name LIKE N''%'+@txtSearch+'%''';
+			WHERE Rs.Name LIKE N''%@txtSearch%''';
 	
 	SET @query = @query + '		
         ORDER BY Rs.isDefault DESC,
@@ -289,7 +289,7 @@ BEGIN
                 Rs.SortOrder DESC
 	';
 
-	EXECUTE sp_executesql @query, N'@BranchId INT', @BranchId = @BranchId
+	EXECUTE sp_executesql @query, N'@BranchId INT, @txtSearch NVARCHAR(1000)', @BranchId = @BranchId, @txtSearch = @txtSearch
 	SELECT @query
 	--PRINT (@query)
 END

@@ -282,7 +282,7 @@ BEGIN
                 ) Rs ';
 	IF LEN(@txtSearch)>0
 		SET @query = @query + '
-			WHERE Rs.Name LIKE N''%'+@txtSearch+'%''';
+			WHERE Rs.Name LIKE N''%@txtSearch%''';
 	
 	SET @query = @query + '		
         ORDER BY Rs.isDefault DESC,
@@ -293,11 +293,20 @@ BEGIN
 	IF (@pageSize != -1 AND @pageSkip != -1) 
 	BEGIN
         SET @query = @query + N'
-            OFFSET ' + CAST(@pageSkip AS VARCHAR(20)) + ' ROWS
-            FETCH NEXT ' + CAST(@pageSize AS VARCHAR(20)) + ' ROWS ONLY ';
+            OFFSET @pageSkip ROWS
+            FETCH NEXT @pageSize ROWS ONLY ';
     END
 
-	EXECUTE sp_executesql @query, N'@BranchId INT', @BranchId = @BranchId
+	DECLARE @declareParams NVARCHAR(1000) = N'
+			@BranchId INT,
+			@pageSize INT,
+			@pageSkip INT,
+			@txtSearch NVARCHAR(1000)
+	';
+	EXECUTE sp_executesql @query, @declareParams, @BranchId = @BranchId,
+													@pageSize = @pageSize,
+													@pageSkip = @pageSkip,
+													@txtSearch = @txtSearch
 	SELECT @query
 	--PRINT (@query)
 END
