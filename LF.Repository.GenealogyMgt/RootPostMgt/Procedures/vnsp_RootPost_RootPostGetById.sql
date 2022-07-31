@@ -4,11 +4,7 @@
 )
 AS
 BEGIN
-    DECLARE @query NVARCHAR(MAX)=''
-	SET @query = @query + N'
-		SELECT *
-		FROM RootPost P
-		WHERE P.RootPostId = ' + CONVERT(VARCHAR(20),@Id)
-
-	EXEC (@query)
+	SELECT *
+	FROM dbo.RootPost P
+	WHERE P.RootPostId = @Id;
 END

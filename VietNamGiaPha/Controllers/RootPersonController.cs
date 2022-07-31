@@ -28,8 +28,15 @@ namespace VietNamGiaPha.Controllers
             return View();
         }
 
+        //[HttpPost]
+        //public ActionResult getPersonList(RootPersonListAction commandAction)
+        //{
+        //    var res = commandAction.Execute();
+        //    return JsonExpando(res);
+        //}
+
         [HttpPost]
-        public ActionResult getPersonList(RootPersonListAction commandAction)
+        public ActionResult ApiRootPersonList(RootPersonListAction commandAction)
         {
             var res = commandAction.Execute();
             return JsonExpando(res);

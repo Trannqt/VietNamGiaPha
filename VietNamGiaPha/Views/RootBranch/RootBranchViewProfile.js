@@ -1,7 +1,8 @@
 ﻿$(document).ready(function () {
-    console.log(this.ViewBag.Result);
-    var result = this.ViewBag.Result;
-    var profileId = this.ViewBag.ProfileId;
+    debugger
+    console.log(ViewBag.Result);
+    var result = ViewBag.Result;
+    var profileId = ViewBag.ProfileId;
     if (profileId == 1) {
         $("#root_Description").html(result[0]["ContentThuyTo"]);
     }

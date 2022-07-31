@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    public class RootPersonSearchRepository: Query
+    public class RootPersonSearchRepository : Query
     {
         public bool isFirstLoad { get; set; }
         public RootPersonSearch Item { get; set; }
@@ -18,12 +18,14 @@ namespace Repository
             {
                 cmd.QueryString = @"vnsp_RootPerson_RootPersonSearch    @pageSize = @pageSize_, 
                                                                         @pageSkip = @pageSkip_,
-                                                                        @BranchId = @BranchId_";
+                                                                        @BranchId = @BranchId_,
+                                                                        @txtSearch = @txtSearch_";
                 cmd.Parameters = new
                 {
                     pageSize_ = Item.pageSize,
                     pageSkip_ = Item.pageSkip,
                     BranchId_ = Item.Id,
+                    txtSearch_ = Item.txtSearch,
                 };
                 return cmd.ExecuteQuery();
             }

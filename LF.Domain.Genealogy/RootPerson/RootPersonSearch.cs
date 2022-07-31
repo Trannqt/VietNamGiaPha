@@ -11,5 +11,6 @@ namespace Domain
         public int Id { get; set; }
         public int pageSize { get; set; }
         public int pageSkip { get; set; }
+        public string txtSearch { get; set; }
     }
 }
